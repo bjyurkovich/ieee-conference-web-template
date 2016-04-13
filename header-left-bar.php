@@ -11,6 +11,11 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main-styles.css">
+	<?php 
+		if(isset($stylesheet)){
+			echo '<link rel="stylesheet" type="text/css" href="'.$stylesheet.'">'; 
+		}
+	?>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -43,13 +48,13 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 			<div id=left-bar-container class="flex flex-auto col-2">
 				<ul class="left-bar list-reset">
 					<li name="back" class="bold" style="font-size: x-large">IEEE <?php echo $json['meta']['conferenceName'];?><a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
-					<li name="home"><a><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
-					<li name="organizers"><a><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
-					<li name="authors"><a><i class="fa fa-lg fa-pencil-square-o" aria-hidden="true"></i>AUTHORS</a></li>
-					<li name="events"><a><i class="fa fa-lg fa-calendar" aria-hidden="true"></i>EVENTS</a></li>
-					<li name="registration"><a><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
-					<li name="hotel"><a><i class="fa fa-lg fa-bed" aria-hidden="true"></i>HOTEL</a></li>
-					<li name="visa-information"><a><i class="fa fa-lg fa-globe" aria-hidden="true"></i>VISA INFORMATION</a></li>
+					<li name="home"><a href="index.php"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
+					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
+					<li name="authors"><a href="authors.php"><i class="fa fa-lg fa-pencil-square-o" aria-hidden="true"></i>AUTHORS</a></li>
+					<li name="events"><a href="events.php"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i>EVENTS</a></li>
+					<li name="registration"><a href="registration"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
+					<li name="hotel"><a href="hotel.php"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>HOTEL</a></li>
+					<li name="visa-information"><a href="visa-information.php"><i class="fa fa-lg fa-globe" aria-hidden="true"></i>VISA INFORMATION</a></li>
 				</ul>
 			</div>
 			<div id="center-content" class="flex flex-auto flex-column col-7">

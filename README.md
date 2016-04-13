@@ -28,7 +28,7 @@ Before we begin with modifying our content, you should understand the organizati
 /configuration
    config.json  (this is your main configuration file)
 /css
-   |--main-styles.css (this holds most of the template styles)
+   main-styles.css (this holds most of the template styles)
 /images  (this is where you should put images you use)
    /hotel
       hotel1.jpg
@@ -85,7 +85,7 @@ A few things to note:
 2. `bannerTopPlacement` and `bannerRightPlacement` allow you to move around the banner image in order to focus it in on a good spot of the image.  Just play around with the numbers until you get it to a point that it looks good.
 
 ###Set Social Media Links
-The next thing to do is set the social media links. Since it is trivial to make a facebook, twitter, and linkedin page for your conference, and they add some cool things (especially twitter) to your event:
+The next thing to do is set the social media links. It is trivial to make a facebook, twitter, and linkedin page for your conference, and they can add some cool things (especially twitter) to your event:
 ```json
 ...
 "socialMediaLinks":{
@@ -94,6 +94,7 @@ The next thing to do is set the social media links. Since it is trivial to make 
 	"linkedin":"http://linkedin.com/[your-linkedin-conference-page]"
 },
 ...
+```
 
 ### Identify the dates
 Next, you should identify the dates and corresponding titles.  These are used in the right nav menu and dates page:
