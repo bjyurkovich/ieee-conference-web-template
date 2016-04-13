@@ -175,7 +175,7 @@ For a complete example of how the configuration file comes together, see `config
 
 
 ##Step 3. Creating or Editing Content Files
-To create or modify content files (such as the main welcome page: `authors.php`), open the file or create a new file with the other content files ending with a `.php` extenstion.  This file has 3 primary components:
+To create or modify content files (such as the main authors page: `authors.php`), open the file or create a new file with the other content files ending with a `.php` extenstion.  This file has 3 primary components:
 
 ###Header Information
 ```php
