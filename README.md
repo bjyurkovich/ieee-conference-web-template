@@ -25,25 +25,25 @@ We recommend using a simple, portable editor such as [Sublime Text](http://www.s
 
 Before we begin with modifying our content, you should understand the organization of the template files:
 ```
-|--configuration
-   |--config.json  (this is your main configuration file)
-|--css
+/configuration
+   config.json  (this is your main configuration file)
+/css
    |--main-styles.css (this holds most of the template styles)
-|--images  (this is where you should put images you use)
-   |--hotel
-      |--hotel1.jpg
-      |--hotel2.jpg
+/images  (this is where you should put images you use)
+   /hotel
+      hotel1.jpg
+      hotel2.jpg
       etc...
-   |--hotel1-banner.jpg
-   |--ieee-logo.png
-|--resources (put pdfs and other things that you want to link to like conference program)
-   |--program.pdf
-   |--other-pdf-file.pdf
-|--index.php (this is where you will put your content files)
-|--registration.php
-|--another-content-file.php
-|--header-left-bar.php
-|--right-bar-footer.php
+   hotel1-banner.jpg
+   ieee-logo.png
+/resources (put pdfs and other things that you want to link to like conference program)
+   program.pdf
+   other-pdf-file.pdf
+index.php (this is where you will put your content files)
+registration.php
+another-content-file.php
+header-left-bar.php
+right-bar-footer.php
 ```
 
 By keeping this file stucture, the template should work with the configuration file.
