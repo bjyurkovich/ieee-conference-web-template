@@ -201,10 +201,31 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	This is where the author info goes. Or some other main text
 </div>
 <p>You can use other HTML tags if you want</p>
-<img src="">You can even go all 1995 on everyone and use img tags!  Make sure to put your image files in the /images directory and reference them there. </img>
+<img src="images/my-sweet-image.png">You can even go all 1995 on everyone and use img tags!  Make sure to put your image files in the /images directory and reference them there. </img>
 
 <?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
 
 ```
 
+#Power Users
+If you are feeling frisky and want to get even more in depth and make some bigger modifcations, the structure is pretty straight forward.  A few things to note to help you navigate a little easier:
 
+###Main CSS Styles
+The main css styles can be found condensed into a single file in `css/main-styles.css`.  You will also find the `@media` queries for mobile styling there, too.  We did our best to keep the differences to a minimum, but we get lazy, and/or run out of time to go back and fix something.  
+
+For reference, the media queries are set to break at the standard 600px mark.
+
+###CSS CDNs
+We used CDNs for a few of the items that require svgs or icons/fonts.  All the others we made an attempt to internalize.  The CDNs we use are font-awesome for the fonts and Google for Open Sans font.  You can find the link defs in the top of `header-left-bar.php`.
+
+###PHP Requires
+You can probably tell if you know anything about PHP, but we tried to keep the includes down to a minimum in order to simplify the content files for the novice user.  To do it correctly (or more flexibly), you may want to split out the files into sub-files, such as `left-bar.php`, `right-bar.php`, etc.
+
+
+
+
+#Contributing
+If you want to add to this template system, more power to you!  If you feel like you have an awesome template addition, just clone the repo, make your change, and submit a pull request.  We will add you to the repo as a contributor.  We hope more people will add to this repo!
+
+#Still need help or want a feature addition but don't know how to do it?
+No problem, we like to help.  Create an issue in the [github issue tracker](https://github.com/bjyurkovich/ieee-conference-web-template/issues)!
