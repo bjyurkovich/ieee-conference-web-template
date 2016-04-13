@@ -6,9 +6,9 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 
 <html>
 <head>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel='stylesheet' type='text/css'>
-	<link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="css/reset.css" rel='stylesheet' type='text/css'>
+	<link href="css/basscss.css" rel="stylesheet">
+	<link href='css/opensans.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main-styles.css">
 	<?php 
@@ -39,9 +39,9 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 				<div class="header-title bold" style="font-size: medium;"><?php echo $json['header']['locationPlaceName'];?> <br> <?php echo $json['header']['locationAreaName'];?></div>
 			</div>
 			<div id="header-quick-links" class="flex flex-wrap">
-				<button>HOTEL</button>
-				<button>AUTHORS</button>
-				<button>DATES</button>
+				<button onclick="location.href='hotel.php';">HOTEL</button>
+				<button onclick="location.href='authors.php';">AUTHORS</button>
+				<button onclick="location.href='dates.php';">DATES</button>
 			</div>
 		</div>
 		<div id="content-container" class="flex flex-auto flex-space-between">
@@ -52,7 +52,7 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
 					<li name="authors"><a href="authors.php"><i class="fa fa-lg fa-pencil-square-o" aria-hidden="true"></i>AUTHORS</a></li>
 					<li name="events"><a href="events.php"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i>EVENTS</a></li>
-					<li name="registration"><a href="registration"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
+					<li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
 					<li name="hotel"><a href="hotel.php"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>HOTEL</a></li>
 					<li name="visa-information"><a href="visa-information.php"><i class="fa fa-lg fa-globe" aria-hidden="true"></i>VISA INFORMATION</a></li>
 				</ul>

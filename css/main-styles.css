@@ -70,12 +70,12 @@ html, body, .main-container{
 			width: 100%;
 			padding: 12%;
 			color: white;
-			*border-bottom: 1px solid whitesmoke;
+			
 		}
 		#content-container .left-bar li:hover{
 			background: whitesmoke;
 			color: #191970;
-			cursor: pointer;
+			
 		}
 		#content-container .left-bar a i{
 			margin-right:10px;
