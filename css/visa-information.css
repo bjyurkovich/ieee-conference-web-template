@@ -1,0 +1,8 @@
+.main-content a{
+	color:red;
+}
+
+.main-content ul li{
+	margin-left: 2%;
+	padding: 2px 0 2px 0;
+}

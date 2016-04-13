@@ -103,27 +103,39 @@ Next, you should identify the dates and corresponding titles.  These are used in
 "dates":[
 	{
 		"title":"Paper Submission Opens",
-		"date": "December 15, 2016"
+		"date": "December 15, 2016",
+		"showInNavBar": true
 	},
 	{
 		"title":"Invited Session Proposals Due",
-		"date": "March 1, 2017"
+		"date": "March 1, 2017",
+		"showInNavBar": true
 	},
 	{
 		"title":"Contributed and Invited Papers Due",
-		"date": "March 1, 2017"
+		"date": "March 1, 2017",
+		"showInNavBar": true
 	},
 	{
 		"title":"Notification of Acceptance",
-		"date": "June 1, 2017"
+		"date": "June 1, 2017",
+		"showInNavBar": true
 	},
 	{
 		"title":"Final Submissions Due",
-		"date": "July 1, 2017"
+		"date": "July 1, 2017",
+		"showInNavBar": true
+	},
+	{
+		"title":"CCTA 2017 Conference Dates",
+		"date": "August 27-30, 2017",
+		"showInNavBar": false
 	}
 ],
 ...
 ```
+The `showInNavBar` field indicates whether or not you want to the date to show in the navbar field.  If that flag is set as false, it will not show in the navbar, but will show on the dates page.
+
 
 ###Set the footer items and links
 You will also want to set your own footer items and links:

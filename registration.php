@@ -5,7 +5,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 
 <div class="text">
-	This is where the registration info goes.
+	Registration for the conference will open in May 2017. Please re-visit this site for information on registration rates and to register.
 </div>
 
 

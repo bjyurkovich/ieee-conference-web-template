@@ -1,0 +1,24 @@
+.dates-container{
+
+}
+
+.dates-container a{
+	color: red
+}
+
+.dates-container ul{
+	list-style: none;
+}
+
+
+.dates-container ul li{
+	padding: 2%;
+}
+
+.dates-container ul li .date{
+	padding-top: 5px;
+	color: #8C001A;
+}
+.dates-container ul li .title{
+	font-size: medium;
+}

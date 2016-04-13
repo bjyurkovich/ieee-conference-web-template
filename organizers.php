@@ -8,7 +8,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	This is where the organizers go.
 </div> -->
 
-<div class="flex-column">
+<div style="margin-top:5%; margin-bottom: 5%" class="flex-column">
 	<div class="organizer-group-title">Honorary Chair</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/astrom.png);background-size:100px 100px;"></div>

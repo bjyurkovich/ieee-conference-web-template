@@ -150,6 +150,11 @@ p{
 #right-bar #content ul li{
 	padding: 5% 0 5% 0;
 }
+#right-bar #content a{
+	color: red;
+	font-size: small;
+	text-decoration: underline;;
+}
 #right-bar #content ul li .date{
 	padding-top: 5px;
 	color: #8C001A;
@@ -213,6 +218,7 @@ button{
 	font-size: medium;
 	min-width: 150px;
 	margin-right: 1%;
+	min-height: 45px;
 }
 button:hover{
 	cursor: pointer;
