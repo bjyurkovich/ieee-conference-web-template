@@ -1,301 +1,329 @@
 html, body, .main-container{
-			font-family: 'Open Sans', sans-serif;
-			height: 100%;
-			overflow-x: hidden;
-		}
-			
-		.bars, .dates{
-			display: none;
-		}
-		#content-container .left-bar li[name=back]{
-		    display: none;
-		}
-		.close-dates{
-			display: none;
-		}
-
-		#header{
-			height:300px;
-			color:#191970;
-		}
-		#header:after{
-			content : "";
-		    display: block;
-		    position: absolute;
-		    top: 0px;
-		    left: 0;
-		    background-image: url(images/hotel1-banner.jpg); 
-		    width: 100%;
-		    height: 300px;
-		    opacity : 0.4;
-		    z-index: -2;
-		}
-		#header #header-title-container{
-			padding: 10px 5%;
-		}
-		#header #header-title-container .header-title{
-			margin-top: 1%;
-			font-size: 60px;
-		}
-		#header #header-title-container .header-title img{
-			width:200px;
-			vertical-align: middle;
-			margin-right: 5px;
-		}
-		#header #header-title-container .header-title .ieee-logo{
-			width:100px;
-			height: 100px;
-			background-size: url(images/ieee-logo.png)
-			background-size: 100px;
-		}
-		#header #header-quick-links{
-			padding-left: 5%;
-		}
-		#content-container{
-			min-height:70%;
-		}
-		#content-container .left-bar{
-			width: 100%;
-			padding: 0;
-			background: #191970;
-			font-weight: normal;
-			padding-top: 0px;
-			
-		}
-		#content-container .left-bar ul{
-			margin: 0;
-			padding: 0;
-		}
-		#content-container .left-bar li{
-			width: 100%;
-			padding: 12%;
-			color: white;
-			
-		}
-		#content-container .left-bar li:hover{
-			background: whitesmoke;
-			color: #191970;
-			
-		}
-		#content-container .left-bar a i{
-			margin-right:10px;
-		}
-		#center-content{
-			background: whitesmoke;
-		}
-
-		.main-content{
-			padding: 5%;
-			line-height: 20px;
-			font-size: medium
-		}
-		.main-content #images{
-
-		} 
-		.main-content #images .about-image{
-			width: 150px;
-			height: 150px;
-			margin-right: 1%;
-			border-radius: 50%;
-		}
-		.main-content .text{
-			margin-bottom:1%;
-		}
-
-		#right-bar{
-			
-		}
-		#right-bar #top{
-			height: 80px;
-			width: 100%;
-		}
-		#right-bar #top #title{
-			padding: 30px 0 20px 10px;
-			font-size: medium;
-			color: #8C001A;
-		}
-		#right-bar #content{
-			font-size: small;
-			border-left: 1px solid #ccc;
-		}
-		#right-bar #content ul{
-			margin-top: 10px;
-			padding-left: 10px;
-			padding-right: 5px;
-		}
-		#right-bar #content ul li{
-			padding: 5% 0 5% 0;
-		}
-		#right-bar #content ul li .date{
-			padding-top: 5px;
-			color: #8C001A;
-		}
-		#right-bar #content ul li .title{
-			font-size: medium;
-		}
-
-		#footer{
-			background: #191970;
-			width: 100%;
-			min-height: 200px;
-			color: white;
-			padding: 2%;
-		}
-		#footer #link-section{
-			padding-bottom: 15px;
-			border-bottom: 1px solid whitesmoke;
-		}
-		#footer #link-section .title{
-			font-size: large;
-			text-align: left;
-			text-transform: uppercase;
-		}
-		#footer #link-section ul{
-			font-size: small;
-			text-align: left;
-		}
-		#footer #link-section ul li{
-			padding-top: 10px;
-		}
-		
-		#footer #bottom-section{
-			margin-top: 30px;
-			font-size: x-small;
-		}
-		#footer #bottom-section i{
-			padding-right: 20px;
-		}
-		#footer #bottom-section ul li{
-			padding-top: 20px;
-			text-align: center;
-		}
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+	overflow-x: hidden;
+}
 
 
-		.slide-back{
-			display: none;
-		}
+h1{
+	font-weight: bold;
+	font-size: x-large;
+	margin: 5px 0 2% 0;
+	color: #191970;
+}
+h2{
+	font-weight: bold;
+	font-size: large;
+	margin: 5px 0 5px 0;
+	color: #191970;
+}
+
+p{
+	display: block;
+	margin: 2% 0 2% 0;
+}
+
+.callout{
+	font-weight: bold;
+	color: #191970;
+}
+	
+.bars, .dates{
+	display: none;
+}
+#content-container .left-bar li[name=back]{
+    display: none;
+}
+.close-dates{
+	display: none;
+}
+
+#header{
+	height:300px;
+	color:#191970;
+}
+#header:after{
+	content : "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-image: url(images/hotel1-banner.jpg); 
+    width: 100%;
+    height: 300px;
+    opacity : 0.4;
+    z-index: -2;
+}
+#header #header-title-container{
+	padding: 10px 5%;
+}
+#header #header-title-container .header-title{
+	margin-top: 1%;
+	font-size: 60px;
+}
+#header #header-title-container .header-title img{
+	width:200px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+#header #header-title-container .header-title .ieee-logo{
+	width:100px;
+	height: 100px;
+	background-size: url(images/ieee-logo.png)
+	background-size: 100px;
+}
+#header #header-quick-links{
+	padding-left: 5%;
+}
+#content-container{
+	min-height:70%;
+}
+#content-container .left-bar{
+	width: 100%;
+	padding: 0;
+	background: #191970;
+	font-weight: normal;
+	padding-top: 0px;
+	
+}
+#content-container .left-bar ul{
+	margin: 0;
+	padding: 0;
+}
+#content-container .left-bar li{
+	width: 100%;
+	padding: 12%;
+	color: white;
+	
+}
+#content-container .left-bar li:hover{
+	background: whitesmoke;
+	color: #191970;
+	
+}
+#content-container .left-bar a i{
+	margin-right:10px;
+}
+#center-content{
+	background: whitesmoke;
+}
+
+.main-content{
+	padding: 5%;
+	line-height: 20px;
+	font-size: medium
+}
+.main-content #images{
+
+} 
+.main-content #images .about-image{
+	width: 150px;
+	height: 150px;
+	margin-right: 1%;
+	border-radius: 50%;
+}
+.main-content .text{
+	margin-bottom:1%;
+}
+
+#right-bar{
+	
+}
+#right-bar #top{
+	height: 80px;
+	width: 100%;
+}
+#right-bar #top #title{
+	padding: 30px 0 20px 10px;
+	font-size: medium;
+	color: #8C001A;
+}
+#right-bar #content{
+	font-size: small;
+	border-left: 1px solid #ccc;
+}
+#right-bar #content ul{
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+#right-bar #content ul li{
+	padding: 5% 0 5% 0;
+}
+#right-bar #content ul li .date{
+	padding-top: 5px;
+	color: #8C001A;
+}
+#right-bar #content ul li .title{
+	font-size: medium;
+}
+
+#footer{
+	background: #191970;
+	width: 100%;
+	min-height: 200px;
+	color: white;
+	padding: 2%;
+}
+#footer #link-section{
+	padding-bottom: 15px;
+	border-bottom: 1px solid whitesmoke;
+}
+#footer #link-section .title{
+	font-size: large;
+	text-align: left;
+	text-transform: uppercase;
+}
+#footer #link-section ul{
+	font-size: small;
+	text-align: left;
+}
+#footer #link-section ul li{
+	padding-top: 10px;
+}
+
+#footer #bottom-section{
+	margin-top: 30px;
+	font-size: x-small;
+}
+#footer #bottom-section i{
+	padding-right: 20px;
+}
+#footer #bottom-section ul li{
+	padding-top: 20px;
+	text-align: center;
+}
 
 
-		button{
-			background: #191970;
-			border: 0;
-			padding: 1% 2% 1% 2%;
-			color: white;
-			text-transform: uppercase;
-			font-size: medium;
-			min-width: 150px;
-			margin-right: 1%;
-		}
-		button:hover{
-			cursor: pointer;
-			background: whitesmoke;
-			color:#191970;
-		}
+.slide-back{
+	display: none;
+}
 
-		a{
-			color: inherit;
-			text-decoration: none;
-			font-size: inherit;
-		}
+.round{
+	border-radius: 50%;
+}
 
-		@media screen and (max-width: 600px){
-			#page-title{
-				margin-top: 15px;
-			}
-			#header #header-title-container .header-title{
-				font-size: x-large;
-			}
-			#header #header-title-container .header-title img{
-				width:120px;
-				vertical-align: middle;
-				margin-right: 5px;
-			}
-		    #header #header-title-container{
-		    	text-align: center;
-		    	padding: 30px 5%;
-		    }
 
-			#header:after{
-				background-position: right -250px top -510px;
-			}
+button{
+	background: #191970;
+	border: 0;
+	padding: 1% 2% 1% 2%;
+	color: white;
+	text-transform: uppercase;
+	font-size: medium;
+	min-width: 150px;
+	margin-right: 1%;
+}
+button:hover{
+	cursor: pointer;
+	background: whitesmoke;
+	color:#191970;
+}
 
-		    #header #header-quick-links{
-		    	justify-content: center;
-		    }
-		   /* #content-container .left-bar{
-		    	display: none;
-		    }*/
-		    #left-bar-container{
-		    	display: none;
-		    	position: fixed;
-		    	top: 0;
-		    	left: 0;
-		    	transition: width 0.3s ease;
-		    }
-		    #content-container .left-bar ul{
-		    	padding-bottom: 100px;
-		    }
-		    #content-container .left-bar li{
-		    	width: 76%;
-		    	padding-top: 35px;
-		    	padding-bottom: 35px;
-		    }
-		    #content-container .left-bar li[name=back]{
-		    	padding-top: 20px;
-		    	padding-bottom: 5px;
-		    	display: block;
-		    }
-		    #right-bar{
-				display: none;
-				position: fixed;
-		    	top: 0;
-		    	right: 0;
-		    	box-shadow: 2px 2px 2px 2px #282828;
-			}
-			#footer #link-section .footer-items{
-				padding-top: 20px;
-				margin-right: 20px;
-				min-width: 150px;
-				margin-left: 15px;
-			}
-			#footer #link-section .title{
-				color: #6698FF;
-			}
-			button{
-				min-width: 100px;
-				min-height: 50px;
-			}
-			.bars{
-				position: fixed;
-				top: 30px;
-				left: 20px;
-				color:#191970;
-				display: block;
-			}
-			.dates{
-				position: fixed;
-				top: 30px;
-				right: 25px;
-				color:#191970;
-				display: block;
-			}
-			#left-bar-container:target{
-				/*transition: width 0.3s ease;*/
-				display: block;
-				width: 80%;
+a{
+	color: inherit;
+	text-decoration: none;
+	font-size: inherit;
+}
 
-			}
-			#right-bar:target{
-				display: block;
-				width: 80%;
-			}
-			.slide-back{
-				display: inline-block;
-				float: right;
-			}
-			.close-dates{
-				display: block;
-				color: #8C001A;
-			}
+@media screen and (max-width: 600px){
+	#page-title{
+		margin-top: 15px;
+	}
+	#header #header-title-container .header-title{
+		font-size: x-large;
+	}
+	#header #header-title-container .header-title img{
+		width:120px;
+		vertical-align: middle;
+		margin-right: 5px;
+	}
+    #header #header-title-container{
+    	text-align: center;
+    	padding: 30px 5%;
+    }
 
-		}
+	#header:after{
+		background-position: right -250px top -510px;
+	}
+
+    #header #header-quick-links{
+    	justify-content: center;
+    }
+   /* #content-container .left-bar{
+    	display: none;
+    }*/
+    #left-bar-container{
+    	display: none;
+    	position: fixed;
+    	top: 0;
+    	left: 0;
+    	transition: width 0.3s ease;
+    }
+    #content-container .left-bar ul{
+    	padding-bottom: 100px;
+    }
+    #content-container .left-bar li{
+    	width: 76%;
+    	padding-top: 35px;
+    	padding-bottom: 35px;
+    }
+    #content-container .left-bar li[name=back]{
+    	padding-top: 20px;
+    	padding-bottom: 5px;
+    	display: block;
+    }
+    #right-bar{
+		display: none;
+		position: fixed;
+    	top: 0;
+    	right: 0;
+    	box-shadow: 2px 2px 2px 2px #282828;
+	}
+	#footer #link-section .footer-items{
+		padding-top: 20px;
+		margin-right: 20px;
+		min-width: 150px;
+		margin-left: 15px;
+	}
+	#footer #link-section .title{
+		color: #6698FF;
+	}
+	button{
+		min-width: 100px;
+		min-height: 50px;
+	}
+	.bars{
+		position: fixed;
+		top: 30px;
+		left: 20px;
+		color:#191970;
+		display: block;
+	}
+	.dates{
+		position: fixed;
+		top: 30px;
+		right: 25px;
+		color:#191970;
+		display: block;
+	}
+	#left-bar-container:target{
+		/*transition: width 0.3s ease;*/
+		display: block;
+		width: 80%;
+
+	}
+	#right-bar:target{
+		display: block;
+		width: 80%;
+	}
+	.slide-back{
+		display: inline-block;
+		float: right;
+	}
+	.close-dates{
+		display: block;
+		color: #8C001A;
+	}
+
+}

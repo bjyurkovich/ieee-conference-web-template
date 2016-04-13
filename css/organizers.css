@@ -1,0 +1,53 @@
+.headshot{
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+}
+
+.person-container{
+	width: 100%;
+	height: 100px;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.person-container .name{
+	font-size: large;
+	color: #191970;
+	margin-bottom: 5px;
+}
+
+.person-container .info-container{
+	padding: 3%;
+}
+
+.person-container .pic{
+	width:100px;
+	height: 100px;
+}
+
+.person-container .role{
+	font-size: medium;
+}
+
+
+
+.person-container .affiliation{
+	font-size: small;
+}
+
+.person-container .contact{
+	font-size: small;
+}
+
+.organizer-group-title{
+	font-size: x-large;
+	color: #191970;
+	margin-bottom: 10px;
+}
+
+.spacer{
+	width: 100%;
+	height: 30px;
+}
