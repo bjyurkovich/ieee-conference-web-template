@@ -23,6 +23,29 @@ There are a couple of ways to get the files in this template start modifying:
 
 We recommend using a simple, portable editor such as [Sublime Text](http://www.sublimetext.com/3) to edit the files we mention in this tutorial.
 
+Before we begin with modifying our content, you should understand the organization of the template files:
+```
+|--configuration
+   |--config.json  (this is your main configuration file)
+|--css
+   |--main-styles.css (this holds most of the template styles)
+|--images  (this is where you should put images you use)
+   |--hotel
+      |--hotel1.jpg
+      |--hotel2.jpg
+      etc...
+   |--hotel1-banner.jpg
+   |--ieee-logo.png
+|--resources (put pdfs and other things that you want to link to like conference program)
+   |--program.pdf
+   |--other-pdf-file.pdf
+|--index.php (this is where you will put your content files)
+|--registration.php
+|--another-content-file.php
+|--header-left-bar.php
+|--right-bar-footer.php
+
+By keeping this file stucture, the template should work with the configuration file.
 
 ##Step 2. Modify the Configuration File
 We have included a JSON configuration file that holds most of the general information, links, and resource (images, etc) locations.  This can be found in `configuration/config.json` file.  See [an overview](http://www.json.org/) in case you want to know more about JSON.
@@ -130,89 +153,15 @@ You will also want to set your own footer items and links:
 			}
 		]
 	},
-	"secondSection":{
-		"title":"destination",
-		"links":[
-			{
-				"name": "Hotel",
-				"link": "hotel.php"
-			},
-			{
-				"name": "Recommended Sights",
-				"link": "http://google.com"
-			},
-			{
-				"name": "Conference Deals",
-				"link": "#"
-			},
-			{
-				"name": "The Big Island",
-				"link": "#"
-			},
-			{
-				"name": "Flights",
-				"link": "http://flights.google.com"
-			}
-		]
-	},
-	"thirdSection":{
-		"title":"author links",
-		"links":[
-			{
-				"name": "Papercept Plaza",
-				"link": "hotel.php"
-			},
-			{
-				"name": "author information",
-				"link": "authors.php"
-			},
-			{
-				"name": "IEEE Guidelines",
-				"link": "#"
-			},
-			{
-				"name": "Templates",
-				"link": "#"
-			},
-			{
-				"name": "IEEE Xplore",
-				"link": "#"
-			}
-		]
-	},
-	"fourthSection":{
-		"title":"sitemap",
-		"links":[
-			{
-				"name": "Home",
-				"link": "welcome.php"
-			},
-			{
-				"name": "Organizers",
-				"link": "organizers.php"
-			},
-			{
-				"name": "Visa Information",
-				"link": "visainformation.php"
-			},
-			{
-				"name": "Events",
-				"link": "events.php"
-			},
-			{
-				"name": "Registration",
-				"link": "registration.php"
-			}
-		]
-	}
-}
-...
+	...
 ```
-You will notice that the links are fully qualified (links starting with "http://") for outside links, and just the folder/filename if they are files (php, html, pdf, jpg, png, etc) you make.
+You will notice that the links are fully qualified (links starting with "http://") for outside links, and just the folder/filename if they are files (php, html, pdf, jpg, png, etc) you make.  There are four (and only four) footer sections.
+
+For a complete example of how the configuration file comes together, see `configuration/config.json`.
 
 
-##Step 3. Editing Existing Content
-To modify the content in existing files (such as the main welcome page: `index.php`), simply open the file.  The file has 3 primary components:
+##Step 3. Creating or Editing Content Files
+To create or modify content files (such as the main welcome page: `index.php`), open the file or create a new file with the other content files ending with a `.php` extenstion.  This file has 3 primary components:
 
 ###Header Information
 ```php
@@ -221,7 +170,7 @@ $pageTitle='welcome'; //THIS MUST BE SET FOR EACH PAGE
 require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 ```
-The header information sets the page title (in this example, "welcome").  The page title is what is displayed on the title of each page.  The `header-left-bar.php` file contains the PHP/HTML code to generate the header and left navigation bar. 
+The header information sets the page title (in this example, "welcome").  The page title is what is displayed on the main title bar of each content page.  The `header-left-bar.php` file contains the PHP/HTML code to generate the header and left navigation bar. 
 
 > The `$pageTitle` variable must be set before the `require 'header-left-bar.php';` line is specified.  
 
@@ -231,7 +180,7 @@ You can use your own HTML, text, pictures, or whatever you want at this stage to
 > In the event that you want to include your own CSS stylesheet to be loaded for the page you are editing, you can do so by adding a line above `require 'header-left-bar.php';` that sets the variable `$stylesheet` css stylesheet file and location.  For example: `$stylesheet='css/my-own-custom-stylesheet.css';`
 
 ###The rest of the page
-Make sure to include the rest of the page template:  the right deadline nav bar and the footer:
+Make sure to include the rest of the page template.  The `right-bar-footer.php` file contains the right navigation bar that holds the dates and the footer code:
 ```php
 <?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
 ```
