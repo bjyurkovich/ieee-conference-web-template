@@ -11,7 +11,7 @@ There are a number of well developed CMS (content management system) technologie
 3. It was requested that if we do remake a site, that it be easily editable for the future generations of conference chairs and that we shouldn't deviate to much from the "common template experience"
 4. We were kindly volunteered to do this task, and given all the other paid work we needed to do, we really didn't want to take on a full template implementation! (but were still too tired of looking at the old site designs keep perpetuating the existing template design)
 
-We chose to use PHP (the same language that Pradeep Misra put the current operating template with years ago - and he did a good job back then!).  While it is by far our first choice of languages to use given all the great new technologies that we work with every day, we didn't want to try to introduce something new.  Plus, PHP has a huge user base and can be deployed just about anywhere the bits and bytes roam.  With that said, we also attempted to bring a smattering of the 21st century to this template by making a simple configuration file "coded" in JSON (javascript object notation).  JSON is a really lightweight, human-readable format that is used in most modern webservices (and some databases!).  By using JSON, we hope to provide you a one-stop-file to put most (if not all) your website configuration data into without having to dig around in the web code to make simple content changes.
+We chose to use PHP (the same language that Pradeep Misra put the current operating template with years ago - and he did a good job back then!).  While it is far from our first choice of languages to use given all the great new technologies that we work with every day, we didn't want to try to introduce something new.  Plus, PHP has a huge user base and can be deployed just about anywhere the bits and bytes roam.  With that said, we also attempted to bring a smattering of the 21st century to this template by making a simple configuration file "coded" in JSON (javascript object notation).  JSON is a really lightweight, human-readable format that is used in most modern webservices (and some databases!).  By using JSON, we hope to provide you a one-stop-file to put most (if not all) your website configuration data into without having to dig around in the web code to make simple content changes.
 
 Below is a step-by-step guide in making this template your own!
 
@@ -187,5 +187,24 @@ Make sure to include the rest of the page template.  The `right-bar-footer.php` 
 <?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
 ```
 This should be the last line in every one of your content files.
+
+All together, your page should look something like this:
+
+```php
+<?php 
+$pageTitle='Authors'; //THIS MUST BE SET FOR EACH PAGE
+$stylesheet='css/authors.css';
+require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
+?>
+
+<div class="text">
+	This is where the author info goes. Or some other main text
+</div>
+<p>You can use other HTML tags if you want</p>
+<img src="">You can even go all 1995 on everyone and use img tags!  Make sure to put your image files in the /images directory and reference them there. </img>
+
+<?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
+
+```
 
 
