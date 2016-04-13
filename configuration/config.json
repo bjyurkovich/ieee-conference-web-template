@@ -1,0 +1,147 @@
+{
+	"meta":{
+		"conferenceYear": 2017,
+		"dateStart": "2017-08-27",
+		"dateEnd": "2017-08-30",
+		"conferenceName": "CCTA 2017"
+	},
+	"header":{
+		"title" : "CCTA 2017",
+		"subtitle" : "1st IEEE Conference on Control Technology and Applications",
+		"dateTitle" : "August 27-30, 2017",
+		"locationPlaceName": "The Mauna Lani Bay Hotel and Bungalows",
+		"locationAreaName": "Kohala Coast, Hawai'i",
+		"bannerImage":"images/hotel1-banner.jpg",
+		"bannerTopPlacement" : "-310px",
+		"bannerRightPlacement" : "-550px"
+	},
+	"socialMediaLinks":{
+		"facebook":"http://facebook.com",
+		"twitter":"http://twitter.com",
+		"linkedin":"http://linkedin.com"
+	},
+	"dates":[
+		{
+			"title":"Paper Submission Opens",
+			"date": "December 15, 2016"
+		},
+		{
+			"title":"Invited Session Proposals Due",
+			"date": "March 1, 2017"
+		},
+		{
+			"title":"Contributed and Invited Papers Due",
+			"date": "March 1, 2017"
+		},
+		{
+			"title":"Notification of Acceptance",
+			"date": "June 1, 2017"
+		},
+		{
+			"title":"Final Submissions Due",
+			"date": "July 1, 2017"
+		}
+	],
+	"footerLinks":{
+		"firstSection":{
+			"title":"conference",
+			"links":[
+				{
+					"name": "Program",
+					"link": "resources/ccta2017-program.pdf"
+				},
+				{
+					"name": "Map",
+					"link": "http://maps.google.com"
+				},
+				{
+					"name": "Speakers",
+					"link": "resources/ccta2017-program.pdf"
+				},
+				{
+					"name": "Events",
+					"link": "resources/ccta2017-program.pdf"
+				},
+				{
+					"name": "Sessions",
+					"link": "resources/ccta2017-program.pdf"
+				}
+			]
+		},
+		"secondSection":{
+			"title":"destination",
+			"links":[
+				{
+					"name": "Hotel",
+					"link": "hotel.php"
+				},
+				{
+					"name": "Recommended Sights",
+					"link": "http://google.com"
+				},
+				{
+					"name": "Conference Deals",
+					"link": "#"
+				},
+				{
+					"name": "The Big Island",
+					"link": "#"
+				},
+				{
+					"name": "Flights",
+					"link": "http://flights.google.com"
+				}
+			]
+		},
+		"thirdSection":{
+			"title":"author links",
+			"links":[
+				{
+					"name": "Papercept Plaza",
+					"link": "hotel.php"
+				},
+				{
+					"name": "author information",
+					"link": "authors.php"
+				},
+				{
+					"name": "IEEE Guidelines",
+					"link": "#"
+				},
+				{
+					"name": "Templates",
+					"link": "#"
+				},
+				{
+					"name": "IEEE Xplore",
+					"link": "#"
+				}
+			]
+		},
+		"fourthSection":{
+			"title":"sitemap",
+			"links":[
+				{
+					"name": "Home",
+					"link": "welcome.php"
+				},
+				{
+					"name": "Organizers",
+					"link": "organizers.php"
+				},
+				{
+					"name": "Visa Information",
+					"link": "visainformation.php"
+				},
+				{
+					"name": "Events",
+					"link": "events.php"
+				},
+				{
+					"name": "Registration",
+					"link": "registration.php"
+				}
+			]
+		}
+	}
+}
