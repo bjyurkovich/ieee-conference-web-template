@@ -21,6 +21,9 @@ There are a couple of ways to get the files in this template start modifying:
 1. Use `git` and "clone" the repository.  If you do it this way, we assume you have some experience in cloning git repositories: `git clone https://github.com/bjyurkovich/ieee-conference-web-template.git`
 2. Press the "Download Zip" Icon in the top corner of this page above the file listings.
 
+We recommend using a simple, portable editor such as [Sublime Text](http://www.sublimetext.com/3) to edit the files we mention in this tutorial.
+
+
 ##Step 2. Modify the Configuration File
 We have included a JSON configuration file that holds most of the general information, links, and resource (images, etc) locations.  This can be found in `configuration/config.json` file.  See [an overview](http://www.json.org/) in case you want to know more about JSON.
 
@@ -52,6 +55,11 @@ The header information needs to be set.  This information is used on the primary
 },
 ...
 ```
+A few things to note:  
+
+1. `bannerImage` is the filename (and folder location) of the banner image in the header and should be roughly the same size or larger as the included one (2076 × 942) if possible.  The larger the resolution the better. If it is smaller than 1920x1080, you run the risk of not filling the entire banner on some HD monitors.
+2. `bannerTopPlacement` and `bannerRightPlacement` allow you to move around the banner image in order to focus it in on a good spot of the image.  Just play around with the numbers until you get it to a point that it looks good.
+
 ###Set Social Media Links
 The next thing to do is set the social media links. Since it is trivial to make a facebook, twitter, and linkedin page for your conference, and they add some cool things (especially twitter) to your event:
 ```json
@@ -200,3 +208,33 @@ You will also want to set your own footer items and links:
 }
 ...
 ```
+You will notice that the links are fully qualified (links starting with "http://") for outside links, and just the folder/filename if they are files (php, html, pdf, jpg, png, etc) you make.
+
+
+##Step 3. Editing Existing Content
+To modify the content in existing files (such as the main welcome page: `index.php`), simply open the file.  The file has 3 primary components:
+
+###Header Information
+```php
+<?php 
+$pageTitle='welcome'; //THIS MUST BE SET FOR EACH PAGE
+require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
+?>
+```
+The header information sets the page title (in this example, "welcome").  The page title is what is displayed on the title of each page.  The `header-left-bar.php` file contains the PHP/HTML code to generate the header and left navigation bar. 
+
+> The `$pageTitle` variable must be set before the `require 'header-left-bar.php';` line is specified.  
+
+###Your Page Content
+You can use your own HTML, text, pictures, or whatever you want at this stage to replace the existing content.  You may notice that we included a few CSS classes to use in case you want them (like rounded pictures, text formatting, etc).  You can look through some of the example pages in the templates to see the options.
+
+> In the event that you want to include your own CSS stylesheet to be loaded for the page you are editing, you can do so by adding a line above `require 'header-left-bar.php';` that sets the variable `$stylesheet` css stylesheet file and location.  For example: `$stylesheet='css/my-own-custom-stylesheet.css';`
+
+###The rest of the page
+Make sure to include the rest of the page template:  the right deadline nav bar and the footer:
+```php
+<?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
+```
+This should be the last line in every one of your content files.
+
+
