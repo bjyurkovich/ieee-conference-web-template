@@ -44,6 +44,7 @@ Before we begin with modifying our content, you should understand the organizati
 |--another-content-file.php
 |--header-left-bar.php
 |--right-bar-footer.php
+```
 
 By keeping this file stucture, the template should work with the configuration file.
 
