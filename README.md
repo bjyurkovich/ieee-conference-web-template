@@ -203,9 +203,15 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 <p>You can use other HTML tags if you want</p>
 <img src="images/my-sweet-image.png">You can even go all 1995 on everyone and use img tags!  Make sure to put your image files in the /images directory and reference them there. </img>
 
-<?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
+<?php require 'right-bar-footer.php'; //THIS MUST BE INCLUDED FOR EACH PAGE ?>
 
 ```
+
+#Deploying/Setting up your site
+While this could take many different forms and is outside the scope of this document, we will say that we recommend installing [Apache](https://httpd.apache.org/download.cgi) locally to test your site out along with [PHP](http://php.net/manual/en/install.php).  When deploying to a server, you can simply SSH/SFTP into the server and dump your files there.  Assuming it runs PHP, you should be able to serve the files from there without any additional modifications.
+
+We have provided a simple one page html file in `reference/index.html` that should work on your local machine be opening locally in a browser.  We put that there in order for you to at least see what the main page of the template looks like (sorry - we didn't code out the whole site in static HTML!).
+
 
 #Power Users
 If you are feeling frisky and want to get even more in depth and make some bigger modifcations, the structure is pretty straight forward.  A few things to note to help you navigate a little easier:
@@ -214,6 +220,8 @@ If you are feeling frisky and want to get even more in depth and make some bigge
 The main css styles can be found condensed into a single file in `css/main-styles.css`.  You will also find the `@media` queries for mobile styling there, too.  We did our best to keep the differences to a minimum, but we get lazy, and/or run out of time to go back and fix something.  
 
 For reference, the media queries are set to break at the standard 600px mark.
+
+We used [basscss](http://www.basscss.com/) for this, and found it to be very nice to work with.  We use flexbox exclusively for the layouts - it makes life easier for responsive sites!  If you add, we strongly recommend making an attempt to keep using flexbox, else you risk messing up the mobile layout unintentionally.
 
 ###CSS CDNs
 We used CDNs for a few of the items that require svgs or icons/fonts.  All the others we made an attempt to internalize.  The CDNs we use are font-awesome for the fonts and Google for Open Sans font.  You can find the link defs in the top of `header-left-bar.php`.
