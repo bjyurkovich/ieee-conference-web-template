@@ -175,28 +175,28 @@ For a complete example of how the configuration file comes together, see `config
 
 
 ##Step 3. Creating or Editing Content Files
-To create or modify content files (such as the main welcome page: `index.php`), open the file or create a new file with the other content files ending with a `.php` extenstion.  This file has 3 primary components:
+To create or modify content files (such as the main welcome page: `authors.php`), open the file or create a new file with the other content files ending with a `.php` extenstion.  This file has 3 primary components:
 
 ###Header Information
 ```php
 <?php 
-$pageTitle='welcome'; //THIS MUST BE SET FOR EACH PAGE
+$pageTitle='Authors'; //THIS MUST BE SET FOR EACH PAGE
 require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 ```
-The header information sets the page title (in this example, "welcome").  The page title is what is displayed on the main title bar of each content page.  The `header-left-bar.php` file contains the PHP/HTML code to generate the header and left navigation bar. 
+The header information sets the page title (in this example, "Authors").  The page title is what is displayed on the main title bar of each content page.  The `header-left-bar.php` file contains the PHP/HTML code to generate the header and left navigation bar. 
 
 > The `$pageTitle` variable must be set before the `require 'header-left-bar.php';` line is specified.  
 
 ###Your Page Content
 You can use your own HTML, text, pictures, or whatever you want at this stage to replace the existing content.  You may notice that we included a few CSS classes to use in case you want them (like rounded pictures, text formatting, etc).  You can look through some of the example pages in the templates to see the options.
 
-> In the event that you want to include your own CSS stylesheet to be loaded for the page you are editing, you can do so by adding a line above `require 'header-left-bar.php';` that sets the variable `$stylesheet` css stylesheet file and location.  For example: `$stylesheet='css/my-own-custom-stylesheet.css';`
+> In the event that you want to include your own CSS stylesheet to be loaded for the page you are editing, you can do so by adding a line above `require 'header-left-bar.php';` that sets the variable `$stylesheet` css stylesheet file and location.  For example: `$stylesheet='css/my-own-custom-stylesheet-that-I-made.css';`
 
 ###The rest of the page
 Make sure to include the rest of the page template.  The `right-bar-footer.php` file contains the right navigation bar that holds the dates and the footer code:
 ```php
-<?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
+<?php require 'right-bar-footer.php'; //THIS MUST BE INCLUDED FOR EACH PAGE ?>
 ```
 This should be the last line in every one of your content files.
 
