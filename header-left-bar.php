@@ -8,7 +8,7 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 <head>
 	<link href="css/reset.css" rel='stylesheet' type='text/css'>
 	<link href="css/basscss.css" rel="stylesheet">
-	<link href='css/opensans.css' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main-styles.css">
 	<?php 
