@@ -1,0 +1,10 @@
+
+.main-content .image-holder{
+	padding: 1%;
+	width: 150px;
+}
+.main-content .image-holder img{
+	text-align: center;
+	max-width: 150px;
+}
+

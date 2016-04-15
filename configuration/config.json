@@ -58,23 +58,28 @@
 			"links":[
 				{
 					"name": "Technical Program",
-					"link": "#"
+					"link": "#",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Plenary Speakers",
-					"link": "#"
+					"link": "#",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Workshops",
-					"link": "#"
+					"link": "#",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Social Events ",
-					"link": "events.php"
+					"link": "events.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Registration",
-					"link": "registration.php"
+					"link": "registration.php",
+					"openInNewWindow": false
 				}
 			]
 		},
@@ -83,23 +88,28 @@
 			"links":[
 				{
 					"name": "Hotel",
-					"link": "hotel.php"
+					"link": "hotel.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Big Island",
-					"link": "http://www.gohawaii.com/en/big-island/regions-neighborhoods/kohala-coast/"
+					"link": "http://www.gohawaii.com/en/big-island/regions-neighborhoods/kohala-coast/",
+					"openInNewWindow": true
 				},
 				{
 					"name": "Flights",
-					"link": "https://www.google.com/flights/#search;t=r-Big+Island,+United+States-0x7953e7c1c5f73a59%253A0x1455a492f9d78134;d=2017-03-07;r=2017-03-11;mc=e"
+					"link": "https://www.google.com/flights/#search;t=r-Big+Island,+United+States-0x7953e7c1c5f73a59%253A0x1455a492f9d78134;d=2017-03-07;r=2017-03-11;mc=e",
+					"openInNewWindow": true
 				},
 				{
 					"name": "Local Information",
-					"link": "http://www.gohawaii.com/en/big-island/regions-neighborhoods/kohala-coast"
+					"link": "http://www.gohawaii.com/en/big-island/regions-neighborhoods/kohala-coast",
+					"openInNewWindow": true
 				},
 				{
 					"name": "Map",
-					"link": "https://www.google.com/maps/place/Mauna+Lani+Bay+Hotel+%26+Bungalows/@19.946191,-155.8692267,879m/data=!3m1!1e3!4m2!3m1!1s0x79538793d6e16f1f:0xa7e015de3a37325a"
+					"link": "https://www.google.com/maps/place/Mauna+Lani+Bay+Hotel+%26+Bungalows/@19.946191,-155.8692267,879m/data=!3m1!1e3!4m2!3m1!1s0x79538793d6e16f1f:0xa7e015de3a37325a",
+					"openInNewWindow": true
 				}
 			]
 		},
@@ -108,23 +118,28 @@
 			"links":[
 				{
 					"name": "Submission Policy",
-					"link": "authors.php"
+					"link": "authors.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Article Templates",
-					"link": "authors.php"
+					"link": "authors.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "PaperPlaza",
-					"link": " http://css.paperplaza.net"
+					"link": "http://css.paperplaza.net",
+					"openInNewWindow": true
 				},
 				{
 					"name": "CFPs",
-					"link": "authors.php"
+					"link": "authors.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Visa Information",
-					"link": "visa-information.php"
+					"link": "visa-information.php",
+					"openInNewWindow": false
 				}
 			]
 		},
@@ -133,23 +148,28 @@
 			"links":[
 				{
 					"name": "Home",
-					"link": "welcome.php"
+					"link": "welcome.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Organizers",
-					"link": "organizers.php"
+					"link": "organizers.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Visa Information",
-					"link": "visainformation.php"
+					"link": "visainformation.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Events",
-					"link": "events.php"
+					"link": "events.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Registration",
-					"link": "registration.php"
+					"link": "registration.php",
+					"openInNewWindow": false
 				}
 			]
 		}

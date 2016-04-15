@@ -42,7 +42,12 @@
 	 						echo '<div class="title">'.$obj['title'].'</div>';
 	 						echo '<ul class="list-reset">';
 	 						for ($i = 0; $i < count($obj['links']); $i++) {
-							    echo '<li><a href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
+	 							if($obj['links'][$i]['openInNewWindow']){
+	 								$target = "_blank";
+	 							}else{
+	 								$target = "";
+	 							}
+							    echo '<li><a target="'.$target.'" href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
 							} 
 							echo '</ul>';
 	 					?>
@@ -54,7 +59,12 @@
 	 						echo '<div class="title">'.$obj['title'].'</div>';
 	 						echo '<ul class="list-reset">';
 	 						for ($i = 0; $i < count($obj['links']); $i++) {
-							    echo '<li><a href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
+							    if($obj['links'][$i]['openInNewWindow']){
+	 								$target = "_blank";
+	 							}else{
+	 								$target = "";
+	 							}
+							    echo '<li><a target="'.$target.'" href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
 							} 
 							echo '</ul>';
 	 					?>
@@ -66,7 +76,12 @@
 	 						echo '<div class="title">'.$obj['title'].'</div>';
 	 						echo '<ul class="list-reset">';
 	 						for ($i = 0; $i < count($obj['links']); $i++) {
-							    echo '<li><a href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
+							    if($obj['links'][$i]['openInNewWindow']){
+	 								$target = "_blank";
+	 							}else{
+	 								$target = "";
+	 							}
+							    echo '<li><a target="'.$target.'" href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
 							} 
 							echo '</ul>';
 	 					?>
@@ -78,7 +93,12 @@
 	 						echo '<div class="title">'.$obj['title'].'</div>';
 	 						echo '<ul class="list-reset">';
 	 						for ($i = 0; $i < count($obj['links']); $i++) {
-							    echo '<li><a href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
+							    if($obj['links'][$i]['openInNewWindow']){
+	 								$target = "_blank";
+	 							}else{
+	 								$target = "";
+	 							}
+							    echo '<li><a target="'.$target.'" href="'.$obj['links'][$i]['link'].'">'.$obj['links'][$i]['name'].'</a></li>';
 							} 
 							echo '</ul>';
 	 					?>
@@ -88,9 +108,9 @@
 					<div class="center">
 						&copy IEEE <?php echo $json['meta']['conferenceName'] ?>
 						<br><br>
-						<a href="<?php echo $json['socialMediaLinks']['facebook'] ?>"><i class="fa fa-3x fa-facebook"></i></a>
-						<a href="<?php echo $json['socialMediaLinks']['twitter'] ?>"><i class="fa fa-3x fa-twitter"></i></a>
-						<a href="<?php echo $json['socialMediaLinks']['linkedin'] ?>"><i class="fa fa-3x fa-linkedin"></i> </a>
+						<a target="_blank" href="<?php echo $json['socialMediaLinks']['facebook'] ?>"><i class="fa fa-3x fa-facebook"></i></a>
+						<a target="_blank" href="<?php echo $json['socialMediaLinks']['twitter'] ?>"><i class="fa fa-3x fa-twitter"></i></a>
+						<a target="_blank" href="<?php echo $json['socialMediaLinks']['linkedin'] ?>"><i class="fa fa-3x fa-linkedin"></i> </a>
 					</div> 
 					<div class="">
 						

@@ -21,7 +21,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="spacer"></div>
 		<h1>Submission Specifics</h1>
 
-		All papers and session proposals must be submitted through the conference submission website <a style="color:red" href="css.paperplaza.net">http://css.paperplaza.net</a> and must be submitted in English. All submissions must conform to the following policy: 
+		All papers and session proposals must be submitted through the conference submission website <a style="color:red" href="http://css.paperplaza.net">http://css.paperplaza.net</a> and must be submitted in English. All submissions must conform to the following policy: 
 		<ul>
 			<li>All submitted papers must be formatted in the standard 2-column Proceedings format.</li>
 			<li>For the purposes of review, regular and invited papers are limited to 8 pages. Papers exceeding these limits cannot be uploaded.</li>
