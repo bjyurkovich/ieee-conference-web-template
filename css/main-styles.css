@@ -205,7 +205,8 @@ p{
 }
 
 .round{
-	border-radius: 50%;
+	border-radius: 50px;
+	min-width: 100px;
 }
 
 
@@ -330,6 +331,10 @@ a{
 	.close-dates{
 		display: block;
 		color: #8C001A;
+	}
+
+	.logos{
+		display: none;
 	}
 
 }

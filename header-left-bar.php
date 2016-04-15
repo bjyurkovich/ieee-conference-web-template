@@ -29,19 +29,26 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 </head>
 <body>
 	<div class="flex-column main-container">
-		<div id="header" class="flex-auto">
-			<div class="bars"><a href="#left-bar-container"><i class="fa fa-2x fa-bars"></i></a></div>
-			<div class="dates"><a href="#right-bar"><i class="fa fa-2x fa-calendar"></i></a></div>
-			<div id="header-title-container">
-				<div class="header-title bold flux-auto" style=""><img src="images/ieee-logo.png" style=""></img><div style="vertical-align: middle;display: inline-block;"><?php echo $json['header']['title'];?></div></div>
-				<div class="header-title bold" style="font-size: x-large;"><?php echo $json['header']['subtitle'];?></div>
-				<div class="header-title bold" style="font-size: large;"><?php echo $json['header']['dateTitle'];?></div>
-				<div class="header-title bold" style="font-size: medium;"><?php echo $json['header']['locationPlaceName'];?> <br> <?php echo $json['header']['locationAreaName'];?></div>
+		<div id="header" class="flex flex-columm flex-auto">
+			<div class="flex-auto" style="width: 85%">
+				<div class="bars"><a href="#left-bar-container"><i class="fa fa-2x fa-bars"></i></a></div>
+				<div class="dates"><a href="#right-bar"><i class="fa fa-2x fa-calendar"></i></a></div>
+				<div id="header-title-container">
+					<div class="header-title bold flux-auto" style=""><img src="images/ieee-logo.png" style=""></img><div style="vertical-align: middle;display: inline-block;"><?php echo $json['header']['title'];?></div></div>
+					<div class="header-title bold" style="font-size: x-large;"><?php echo $json['header']['subtitle'];?></div>
+					<div class="header-title bold" style="font-size: large;"><?php echo $json['header']['dateTitle'];?></div>
+					<div class="header-title bold" style="font-size: medium;"><?php echo $json['header']['locationPlaceName'];?> <br> <?php echo $json['header']['locationAreaName'];?></div>
+				</div>
+				<div id="header-quick-links" class="flex flex-wrap">
+					<button onclick="location.href='hotel.php';">HOTEL</button>
+					<button onclick="location.href='authors.php';">AUTHORS</button>
+					<button onclick="location.href='dates.php';">DATES</button>
+				</div>
 			</div>
-			<div id="header-quick-links" class="flex flex-wrap">
-				<button onclick="location.href='hotel.php';">HOTEL</button>
-				<button onclick="location.href='authors.php';">AUTHORS</button>
-				<button onclick="location.href='dates.php';">DATES</button>
+			<div class="flex flex-wrap logos" style="width: 15%">
+				<div class="" style="margin-top:3%;width:100%;height:85px;background:url(images/css-logo.png) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(images/robotics-logo.png) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(images/sice-logo.png) no-repeat"></div>
 			</div>
 		</div>
 		<div id="content-container" class="flex flex-auto flex-space-between">
