@@ -22,7 +22,7 @@
 	},
 	"dates":[
 		{
-			"title":"Paper Submission Opens (<a href='http://css.paperplaza.net/'>link</a>)",
+			"title":"Paper Submission Opens (<a target='_blank' href='http://css.paperplaza.net/'>link</a>)",
 			"date": "December 15, 2016",
 			"showInNavBar": true
 		},
@@ -123,8 +123,8 @@
 				},
 				{
 					"name": "Article Templates",
-					"link": "authors.php",
-					"openInNewWindow": false
+					"link": "http://css.paperplaza.net/conferences/support/support.php",
+					"openInNewWindow": true
 				},
 				{
 					"name": "PaperPlaza",
@@ -158,7 +158,7 @@
 				},
 				{
 					"name": "Visa Information",
-					"link": "visainformation.php",
+					"link": "visa-information.php",
 					"openInNewWindow": false
 				},
 				{

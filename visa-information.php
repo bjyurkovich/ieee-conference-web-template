@@ -6,8 +6,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <div class="text">
 	<p>As an author or co-author, an official letter-of-acceptance that confirms that your paper has been accepted and reaffirms the expectation that you will attend the Conference is available for download. The letter can be used for visa and travel support applications.
-	Information about Visa requirements can be found at the <a href="https://travel.state.gov/">U.S. Department of State Website</a>. 
-	The download will be available from <a href="http://css.paperplaza.net/">PaperPlaza</a> after the reviewing process has been completed. The procedure for obtaining your acceptance letter is as follows:</p>
+	Information about Visa requirements can be found at the <a href="https://travel.state.gov/" target="_blank">U.S. Department of State Website</a>. 
+	The download will be available from <a href="http://css.paperplaza.net/" target="_blank">PaperPlaza</a> after the reviewing process has been completed. The procedure for obtaining your acceptance letter is as follows:</p>
 	<ul>
 		<li>1.	Go to PaperPlaza and Login. </li>
 		<li>2.	Enter your PIN number and Password. </li>
