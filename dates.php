@@ -17,6 +17,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 				</li>';
 		} 
 		?>
+		<li style="font-size:small;color:red;text-transform:uppercase;cursor:pointer"><a target="_blank" href="resources/CCTA2017.call.for.papers.pdf">Download the call for papers</a></li>
 	</ul>
 
 </div>
