@@ -13,12 +13,11 @@
 		"locationAreaName": "Kohala Coast, Hawai'i",
 		"bannerImage":"images/hotel1-banner.jpg",
 		"bannerTopPlacement" : "-310px",
-		"bannerRightPlacement" : "-550px"
+		"bannerRightPlacement" : "-640px"
 	},
 	"socialMediaLinks":{
-		"facebook":"http://facebook.com",
-		"twitter":"http://twitter.com",
-		"linkedin":"http://linkedin.com"
+		"facebook":"https://www.facebook.com/IEEECCTA2017/",
+		"twitter":"https://twitter.com/CCTA2017"
 	},
 	"dates":[
 		{
@@ -28,12 +27,12 @@
 		},
 		{
 			"title":"Invited Session Proposals Due",
-			"date": "March 1, 2017",
+			"date": "Submission window closed",
 			"showInNavBar": true
 		},
 		{
 			"title":"Contributed and Invited Papers Due",
-			"date": "March 1, 2017",
+			"date": "Submission window closed",
 			"showInNavBar": true
 		},
 		{
@@ -63,12 +62,12 @@
 				},
 				{
 					"name": "Plenary Speakers",
-					"link": "#",
+					"link": "plenary-speakers.php",
 					"openInNewWindow": false
 				},
 				{
 					"name": "Workshops",
-					"link": "#",
+					"link": "workshop_guidelines.php",
 					"openInNewWindow": false
 				},
 				{
@@ -77,8 +76,13 @@
 					"openInNewWindow": false
 				},
 				{
-					"name": "Registration",
-					"link": "registration.php",
+					"name": "Student Best Paper Award",
+					"link": "student-paper-award.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Student Travel Support",
+					"link": "student-travel-support.php",
 					"openInNewWindow": false
 				}
 			]
@@ -132,11 +136,6 @@
 					"openInNewWindow": true
 				},
 				{
-					"name": "CFPs",
-					"link": "authors.php",
-					"openInNewWindow": false
-				},
-				{
 					"name": "Visa Information",
 					"link": "visa-information.php",
 					"openInNewWindow": false
@@ -148,7 +147,7 @@
 			"links":[
 				{
 					"name": "Home",
-					"link": "welcome.php",
+					"link": "index.php",
 					"openInNewWindow": false
 				},
 				{
@@ -173,5 +172,17 @@
 				}
 			]
 		}
-	}
+	},
+	"newsTicker":[
+		{
+			"content":"Click here for best student paper nomination",
+			"link":"student-paper-award.php",
+			"openInNewWindow": false
+		},
+		{
+			"content":"Click here for hotel information",
+			"link":"hotel.php",
+			"openInNewWindow": false
+		}
+	]
 }

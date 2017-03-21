@@ -10,6 +10,11 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 	<link href="css/basscss.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<script
+  		src="https://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous">
+  	</script>
 	<link rel="stylesheet" href="css/main-styles.css">
 	<?php 
 		if(isset($stylesheet)){
@@ -19,6 +24,8 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<meta name="keywords" content="CCTA2017,Conference,MSC2017,Control Systems Society,IEEE,MSC,CCA,Conference on Control Applications, ISIC, International Symposium on Intelligent Control, CACSD, Conference on Computer-Aided Control System Design, Multi-Conference on Systems and Control,  Multi-Conference on Systems and Control,CCA,Conference on Control Applications,IEEE Conference on Control Applications,ISIC,CSS,CACSD, IEEE Control Systems Society Conferences,IEEE Conference on Computer-Aided Control System Design">
+
 	<style type="text/css">
 
 		#header:after{
@@ -26,6 +33,54 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 		    background-position: right <?php echo $json['header']['bannerRightPlacement'];?> top <?php echo $json['header']['bannerTopPlacement'];?> ;
 		}
 	</style>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-84971641-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			var newsCounter = 0
+
+			$('#news-ticker-link').attr('href', config.newsTicker[0].link)
+			$('#news-ticker-link').html(config.newsTicker[0].content)
+
+			setInterval(function(){
+				
+				if(newsCounter + 1 > config.newsTicker.length-1){
+					newsCounter = 0
+				}else{
+					newsCounter++
+				}
+				
+				$('#news-ticker-link').fadeOut(500, function(){
+					$('#news-ticker-link').attr('href', config.newsTicker[newsCounter].link)
+					if(config.newsTicker[newsCounter].openInNewWindow){
+						$('#news-ticker-link').attr('target', '_blank')
+					}else{
+						$('#news-ticker-link').attr('target', '')
+					}
+					$('#news-ticker-link').html(config.newsTicker[newsCounter].content)
+					$('#news-ticker-link').fadeIn(500, function(){
+					})
+				})
+				
+			}, 5000)
+
+			
+		})
+	</script>
+	<?php 
+		echo '<script>var config='.file_get_contents('configuration/config.json').'</script>';
+	?>
 </head>
 <body>
 	<div class="flex-column main-container">
@@ -43,6 +98,14 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<button onclick="location.href='hotel.php';">HOTEL</button>
 					<button onclick="location.href='authors.php';">AUTHORS</button>
 					<button onclick="location.href='dates.php';">DATES</button>
+				</div>
+				<div id="news-ticker" class="flex flex-wrap news-ticker">
+					<p style="padding:0;margin:0;font-size:smaller">
+						<i style="color:red;margin-right:10px" class="fa fa-1x fa-newspaper-o"></i> 
+						<span id="news-ticker-content">
+							<a id="news-ticker-link" href="#">Paper submission opens December 15, 2016</a>
+						</span>
+					</p>
 				</div>
 			</div>
 			<div class="flex flex-wrap logos" style="width: 15%">

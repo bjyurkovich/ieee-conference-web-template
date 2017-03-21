@@ -18,8 +18,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	The above rates include the resort activity package, which offers many amenities such as overnight valet or self-parking, in-room internet access, fitness club, double beach cabana, discounts on resort activities, and more. All rates are based on double occupancy ($75 per additional adult beyond two). A limited number of rooms are available at each level, so we recommend that you make your reservations early.
 	</p>
 
-	<p>To book your room, please use the following link: (coming soon) <br>
-	If you would like to call in to make room reservation, the number is 808-881-7911 (beginning July 2016).</p>
+	<p>To book your room, please use the following link: <a style="color:red" href="http://bookings.ihotelier.com/bookings.jsp?groupID=1650953&hotelID=13074" target="_blank">Reserve your room</a> <br>
+	If you would like to call in to make room reservation, the number is 808-881-7911.</p>
 
 	<div id="images" class="flex flex-wrap justify-center">
 		<div class="about-image" style="background: url(images/hotel/hotel1.jpg) 150px 150px"></div>

@@ -20,6 +20,7 @@
 
 .person-container .info-container{
 	padding: 3%;
+	padding-top:0;
 }
 
 .person-container .pic{

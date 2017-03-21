@@ -1,0 +1,10 @@
+.list {
+	list-style: square;
+	margin-left: 3%;
+}
+
+.list li{
+	margin-left: 2%;
+	padding: 2px 0 2px 0;
+}
+
