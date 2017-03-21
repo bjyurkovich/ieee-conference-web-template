@@ -1,7 +1,7 @@
 # IEEE Conference Website Template
 An easily editable IEEE Conference Website template
 
-##Introduction and Motivation
+## Introduction and Motivation
 
 While there is a distinct visual "appeal" for the historical look and feel of the typical IEEE conference website design, it is time for a slightly more updated approach to the conference websites.  This repository provides the busy conference chair a beautiful template that he/she can pass along to whomever they choose to delegate (coherce?) the frustrating/tedious website update.  Our goal is to make it easy (and familiar) to modify the content to be relevant to the conference/event at hand.
 
@@ -16,7 +16,7 @@ We chose to use PHP (the same language that Pradeep Misra put the current operat
 
 Below is a step-by-step guide in making this template your own!
 
-##Step 1. Get the Template
+## Step 1. Get the Template
 There are a couple of ways to get the files in this template to start modifying:
 
 1. Use `git` and "clone" the repository.  If you do it this way, we assume you have some experience in cloning git repositories: `git clone https://github.com/bjyurkovich/ieee-conference-web-template.git`
@@ -49,10 +49,10 @@ right-bar-footer.php
 
 By keeping this file stucture, the template should work with the configuration file.
 
-##Step 2. Modify the Configuration File
+## Step 2. Modify the Configuration File
 We have included a JSON configuration file that holds most of the general information, links, and resource (images, etc) locations.  This can be found in `configuration/config.json` file.  See [an overview](http://www.json.org/) in case you want to know more about JSON.
 
-###Set Meta Data
+### Set Meta Data
 The first thing you want to do is modify the conference meta information. This information is used in a number of places on the site:
 ```json
 ...
@@ -85,7 +85,7 @@ A few things to note:
 1. `bannerImage` is the filename (and folder location) of the banner image in the header and should be roughly the same size or larger as the included one (2076 × 942) if possible.  The larger the resolution the better. If it is smaller than 1920x1080, you run the risk of not filling the entire banner on some HD monitors.
 2. `bannerTopPlacement` and `bannerRightPlacement` allow you to move around the banner image in order to focus it in on a good spot of the image.  Just play around with the numbers until you get it to a point that it looks good.
 
-###Set Social Media Links
+### Set Social Media Links
 The next thing to do is set the social media links. It is trivial to make a facebook, twitter, and linkedin page for your conference, and they can add some cool things (especially twitter) to your event:
 ```json
 ...
@@ -138,7 +138,7 @@ Next, you should identify the dates and corresponding titles.  These are used in
 The `showInNavBar` field indicates whether or not you want to the date to show in the navbar field.  If that flag is set as false, it will not show in the navbar, but will show on the dates page.
 
 
-###Set the footer items and links
+### Set the footer items and links
 You will also want to set your own footer items and links:
 ```json
 ...
@@ -175,10 +175,10 @@ You will notice that the links are fully qualified (links starting with "http://
 For a complete example of how the configuration file comes together, see `configuration/config.json`.
 
 
-##Step 3. Creating or Editing Content Files
+## Step 3. Creating or Editing Content Files
 To create or modify content files (such as the main authors page: `authors.php`), open the file or create a new file with the other content files ending with a `.php` extenstion.  This file has 3 primary components:
 
-###Header Information
+### Header Information
 ```php
 <?php 
 $pageTitle='Authors'; //THIS MUST BE SET FOR EACH PAGE
@@ -189,12 +189,12 @@ The header information sets the page title (in this example, "Authors").  The pa
 
 > The `$pageTitle` variable must be set before the `require 'header-left-bar.php';` line is specified.  
 
-###Your Page Content
+### Your Page Content
 You can use your own HTML, text, pictures, or whatever you want at this stage to replace the existing content.  You may notice that we included a few CSS classes to use in case you want them (like rounded pictures, text formatting, etc).  You can look through some of the example pages in the templates to see the options.
 
 > In the event that you want to include your own CSS stylesheet to be loaded for the page you are editing, you can do so by adding a line above `require 'header-left-bar.php';` that sets the variable `$stylesheet` css stylesheet file and location.  For example: `$stylesheet='css/my-own-custom-stylesheet-that-I-made.css';`
 
-###The rest of the page
+### The rest of the page
 Make sure to include the rest of the page template.  The `right-bar-footer.php` file contains the right navigation bar that holds the dates and the footer code:
 ```php
 <?php require 'right-bar-footer.php'; //THIS MUST BE INCLUDED FOR EACH PAGE ?>
@@ -220,33 +220,33 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 ```
 
-#Deploying/Setting up your site
+# Deploying/Setting up your site
 While this could take many different forms and is outside the scope of this document, we will say that we recommend installing [Apache](https://httpd.apache.org/download.cgi) locally to test your site out along with [PHP](http://php.net/manual/en/install.php).  When deploying to a server, you can simply SSH/SFTP into the server and dump your files there.  Assuming it runs PHP, you should be able to serve the files from there without any additional modifications.
 
 We have provided a simple one page html file in `reference/index.html` that should work on your local machine be opening locally in a browser.  We put that there in order for you to at least see what the main page of the template looks like (sorry - we didn't code out the whole site in static HTML!).
 
 
-#Power Users
+# Power Users
 If you are feeling frisky and want to get even more in depth and make some bigger modifcations, the structure is pretty straight forward.  A few things to note to help you navigate a little easier:
 
-###Main CSS Styles
+### Main CSS Styles
 The main css styles can be found condensed into a single file in `css/main-styles.css`.  You will also find the `@media` queries for mobile styling there, too.  We did our best to keep the differences to a minimum, but we get lazy, and/or run out of time to go back and fix something.  
 
 For reference, the media queries are set to break at the standard 600px mark.
 
 We used [basscss](http://www.basscss.com/) for this, and found it to be very nice to work with.  We use flexbox exclusively for the layouts - it makes life easier for responsive sites!  If you add, we strongly recommend you keep using flexbox, else you risk messing up the mobile layout unintentionally.
 
-###CSS CDNs
+### CSS CDNs
 We used CDNs for a few items that require svgs or icons/fonts.  All the others we made an attempt to internalize.  The CDNs we use are font-awesome for the fonts and Google for Open Sans font.  You can find the link defs at the top of `header-left-bar.php`.
 
-###PHP Requires
+### PHP Requires
 You can probably tell if you know anything about PHP, but we tried to keep the includes down to a minimum to simplify the content files for the novice user.  To do it correctly (or more flexibly), you may want to split out the files into sub-files, such as `left-bar.php`, `right-bar.php`, etc.
 
 
 
 
-#Contributing
+# Contributing
 If you want to add to this template system, more power to you!  If you feel like you have an awesome template addition, just clone the repo, make your change, and submit a pull request.  We will add you to the repo as a contributor.  We hope more people will add to this repo!
 
-#Still need help or want a feature addition but don't know how to do it?
+# Still need help or want a feature addition but don't know how to do it?
 No problem, we like to help.  Create an issue in the [github issue tracker](https://github.com/bjyurkovich/ieee-conference-web-template/issues)!
