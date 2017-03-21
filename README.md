@@ -2,21 +2,22 @@
 An easily editable IEEE Conference Website template
 
 ##Introduction and Motivation
-While there is a distinct visual "appeal" for the historical look and feel of the typical IEEE conference website design, we believe it may be time for a slightly more updated approach to the conference websites.  This repository aims to provide the busy conference chair a beautiful template that he/she can pass along to whomever they choose to delegate (coherce?) the frustrating/tedious website update.  Our goal is to make it easy (and familiar) to modify and replace the content in order to make it relevant to the conference/event at hand.
 
-There are a number of well developed CMS (content management system) technologies out there: Drupal, Wordpress, etc.  Each of these CMS platforms pose their own set of flavors and features and provide great power and flexibility to the user.  It is almost always highly recommended to not reinvent the wheel when trying to remake a CMS and provide non-power users an easy to use web interface to manage and upload web content.  Like any good software team, however, we completely decided against this age-old wisdom and did not use one of these systems but instead started from scratch and built a very minimal, half-baked version of a CMS (if you can even call it that).  We chose this path for a couple reasons:
+While there is a distinct visual "appeal" for the historical look and feel of the typical IEEE conference website design, it is time for a slightly more updated approach to the conference websites.  This repository provides the busy conference chair a beautiful template that he/she can pass along to whomever they choose to delegate (coherce?) the frustrating/tedious website update.  Our goal is to make it easy (and familiar) to modify the content to be relevant to the conference/event at hand.
+
+There are a number of well developed CMS (content management system) technologies out there: Drupal, Wordpress, etc.  Each of these CMS platforms pose their own set of flavors and features and provide great power and flexibility to the user.  It is highly recommended to not reinvent the wheel when remaking a CMS, and provide non-power users an easy to use web interface to manage and upload web content.  Like any good software team, however, we completely decided against this age-old wisdom and did not use one of these systems. Instead we started from scratch and built a very minimal, half-baked version of a CMS (if you can even call it that).  We chose this path for a couple reasons:
 
 1. Powerful CMS systems can sometimes be difficult for a novice to setup and deploy
 2. Powerful CMS systems often require specific server settings and databases which cannot be guaranteed to be present on all hosting environments
 3. It was requested that if we do remake a site, that it be easily editable for the future generations of conference chairs and that we shouldn't deviate to much from the "common template experience"
 4. We were kindly volunteered to do this task, and given all the other paid work we needed to do, we really didn't want to take on a full template implementation! (but were still too tired of looking at the old site designs keep perpetuating the existing template design)
 
-We chose to use PHP (the same language that Pradeep Misra put the current operating template with years ago - and he did a good job back then!).  While it is far from our first choice of languages to use given all the great new technologies that we work with every day, we didn't want to try to introduce something new.  Plus, PHP has a huge user base and can be deployed just about anywhere the bits and bytes roam.  With that said, we also attempted to bring a smattering of the 21st century to this template by making a simple configuration file "coded" in JSON (javascript object notation).  JSON is a really lightweight, human-readable format that is used in most modern webservices (and some databases!).  By using JSON, we hope to provide you a one-stop-file to put most (if not all) your website configuration data into without having to dig around in the web code to make simple tedious template changes.
+We chose to use PHP (the same language that Pradeep Misra put the current operating template with years ago - and he did a good job back then!).  While it is far from our first choice of languages to use, given all the great new technologies that we work with every day, we didn't want to introduce something new.  Plus, PHP has a huge user base and can be deployed just about anywhere the bits and bytes roam.  With that said, we also attempted to bring a smattering of the 21st century to this template by making a simple configuration file "coded" in JSON (javascript object notation).  JSON is a really lightweight, human-readable format that is used in most modern webservices (and some databases!).  By using JSON, we hope to provide you a one-stop-file to put most (if not all) your website configuration data into, without having to dig around in the web code to make simple tedious template changes.
 
 Below is a step-by-step guide in making this template your own!
 
 ##Step 1. Get the Template
-There are a couple of ways to get the files in this template start modifying:
+There are a couple of ways to get the files in this template to start modifying:
 
 1. Use `git` and "clone" the repository.  If you do it this way, we assume you have some experience in cloning git repositories: `git clone https://github.com/bjyurkovich/ieee-conference-web-template.git`
 2. Press the "Download Zip" Icon in the top corner of this page above the file listings.
@@ -52,7 +53,7 @@ By keeping this file stucture, the template should work with the configuration f
 We have included a JSON configuration file that holds most of the general information, links, and resource (images, etc) locations.  This can be found in `configuration/config.json` file.  See [an overview](http://www.json.org/) in case you want to know more about JSON.
 
 ###Set Meta Data
-The first thing you want to do is modify the conference meta information. This information is used in a number of places in the site:
+The first thing you want to do is modify the conference meta information. This information is used in a number of places on the site:
 ```json
 ...
 "meta":{
@@ -64,7 +65,7 @@ The first thing you want to do is modify the conference meta information. This i
 ...
 ``` 
 ###Set Header information
-The header information needs to be set.  This information is used on the primary page header on all the pages:
+The header information needs to be set.  This information is used on the primary page header on all pages:
 ```json
 ...
 "header":{
@@ -233,13 +234,13 @@ The main css styles can be found condensed into a single file in `css/main-style
 
 For reference, the media queries are set to break at the standard 600px mark.
 
-We used [basscss](http://www.basscss.com/) for this, and found it to be very nice to work with.  We use flexbox exclusively for the layouts - it makes life easier for responsive sites!  If you add, we strongly recommend making an attempt to keep using flexbox, else you risk messing up the mobile layout unintentionally.
+We used [basscss](http://www.basscss.com/) for this, and found it to be very nice to work with.  We use flexbox exclusively for the layouts - it makes life easier for responsive sites!  If you add, we strongly recommend you keep using flexbox, else you risk messing up the mobile layout unintentionally.
 
 ###CSS CDNs
-We used CDNs for a few of the items that require svgs or icons/fonts.  All the others we made an attempt to internalize.  The CDNs we use are font-awesome for the fonts and Google for Open Sans font.  You can find the link defs in the top of `header-left-bar.php`.
+We used CDNs for a few items that require svgs or icons/fonts.  All the others we made an attempt to internalize.  The CDNs we use are font-awesome for the fonts and Google for Open Sans font.  You can find the link defs at the top of `header-left-bar.php`.
 
 ###PHP Requires
-You can probably tell if you know anything about PHP, but we tried to keep the includes down to a minimum in order to simplify the content files for the novice user.  To do it correctly (or more flexibly), you may want to split out the files into sub-files, such as `left-bar.php`, `right-bar.php`, etc.
+You can probably tell if you know anything about PHP, but we tried to keep the includes down to a minimum to simplify the content files for the novice user.  To do it correctly (or more flexibly), you may want to split out the files into sub-files, such as `left-bar.php`, `right-bar.php`, etc.
 
 
 
