@@ -1,7 +1,7 @@
 <html>
 <head>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel='stylesheet' type='text/css'>
-	<link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
+	<link href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
