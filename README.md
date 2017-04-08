@@ -64,7 +64,7 @@ The first thing you want to do is modify the conference meta information. This i
 },
 ...
 ``` 
-###Set Header information
+### Set Header information
 The header information needs to be set.  This information is used on the primary page header on all pages:
 ```json
 ...
