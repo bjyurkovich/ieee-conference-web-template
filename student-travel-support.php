@@ -11,7 +11,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</p>
 	<p>
 	<h2>Application Procedures</h2>
-		The application website opens on May 22 and closes on June 5.
+		The application website opens on May 21 and closes on June 10.
 		<br/><br/>
 		To apply, students must fill in the form available at <a href="http://homepages.laas.fr/lzaccari/StudentSupport/" style="color:red">http://homepages.laas.fr/lzaccari/StudentSupport/</a> (login: student, password: ieeeccta2017), convert it into the PDF format, and upload it through PaperPlaza as follows:
 		<ul class="list">
@@ -27,13 +27,13 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</ul>
 
 	</p>
-	<p>
+	<p> 
 		<h2>Deadlines and Award Notification</h2>
-		May 21 (or earlier): decision letters about papers submitted to CCTA 2017 are sent out.
+		May 21 - June 1: decision letters about papers submitted to CCTA 2017 are sent out.
 		<br/><br/>
-		May 22: the application website opens.
+		May 22 - June 2: the application website opens.
 		<br/><br/>
-		June 5: deadline for applying for the student travel support
+		June 5 - June 10: deadline for applying for the student travel support
 		<br/><br/>
 		June 20 (tentative): decision messages about travel support recipients are expected to be sent out.
 
