@@ -6,12 +6,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <div class="text" style="margin-top:-10px ;margin-bottom: 5%;">
 	<p>
-		The Organizing Committee of CCTA 2017 is pleased to announce Student Travel Support, made available by the IEEE Control Systems Society. These funds are meant to enhance the chances of promising students to attend CCTA 2017, present their papers and become more integrated into the CSS scientific community. The limited amount of funds available are not reimbursed to the student awardees, but are applied by the conference organizers to (i) conference registration and (ii) partial lodging expenses; please <a href="http://www.ieeecss.org/member-activities/ieee-css-student-travel-support" style="color:red" target="_blank">click here</a> for more information.
+
+		The Organizing Committee of CCTA 2017 is pleased to announce Student Travel Support, made available by the IEEE Control Systems Society. These funds are meant to enhance the chances of promising students to attend CCTA 2017, present their papers and become more integrated into the CSS scientific community. The limited amount of funds available are not reimbursed to the student awardees, but are applied by the conference organizers to (i) conference registration and (ii) partial lodging expenses; <a href="http://www.ieeecss.org/member-activities/ieee-css-student-travel-support" style="color:red" target="_blank">click here</a> here for more information.
+
 
 	</p>
 	<p>
 	<h2>Application Procedures</h2>
-		The application website opens on May 21 and closes on June 10.
+		The application website opens on May 22 and closes on June 5 .
 		<br/><br/>
 		To apply, students must fill in the form available at <a href="http://homepages.laas.fr/lzaccari/StudentSupport/" style="color:red">http://homepages.laas.fr/lzaccari/StudentSupport/</a> (login: student, password: ieeeccta2017), convert it into the PDF format, and upload it through PaperPlaza as follows:
 		<ul class="list">
@@ -29,16 +31,16 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</p>
 	<p> 
 		<h2>Deadlines and Award Notification</h2>
-		May 21 - June 1: decision letters about papers submitted to CCTA 2017 are sent out.
+		May 12: decision letters about papers submitted to CCTA 2017 were sent out.
 		<br/><br/>
-		May 22 - June 2: the application website opens.
+		May 22: Student Travel Support application website opens.
 		<br/><br/>
-		June 5 - June 10: deadline for applying for the student travel support
+		June 5: Application deadline for student travel support.
 		<br/><br/>
 		June 20 (tentative): decision messages about travel support recipients are expected to be sent out.
 
 		<div style="padding-left:20px;">
-			<span style="font-style: italic;margin-top: 10px;">IMPORTANT NOTE: Do not register until you have received the decision letter where the details of the special registration procedure for Student Travel Awardees will be announced. Please be aware that the registration fee can potentially not be reimbursed in case you have already registered using the standard registration procedure.</span>
+			<span style="font-style: italic;margin-top: 20px;">IMPORTANT NOTE: Do not register until you have received the decision letter where the details of the special registration procedure for Student Travel Awardees will be announced. Please be aware that the registration fee can potentially not be reimbursed in case you have already registered using the standard registration procedure.</span>
 		</div>
 		<br/><br/>
 		July 1: deadline for registering and uploading the final version of the manuscript.

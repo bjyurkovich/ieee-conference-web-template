@@ -57,7 +57,7 @@
 			"links":[
 				{
 					"name": "Technical Program",
-					"link": "#",
+					"link": "technical-program.php",
 					"openInNewWindow": false
 				},
 				{
@@ -67,7 +67,7 @@
 				},
 				{
 					"name": "Workshops",
-					"link": "workshop_guidelines.php",
+					"link": "workshops.php",
 					"openInNewWindow": false
 				},
 				{
@@ -76,13 +76,8 @@
 					"openInNewWindow": false
 				},
 				{
-					"name": "Student Best Paper Award",
-					"link": "student-paper-award.php",
-					"openInNewWindow": false
-				},
-				{
-					"name": "Student Travel Support",
-					"link": "student-travel-support.php",
+					"name": "Panel Session",
+					"link": "panel-session.php",
 					"openInNewWindow": false
 				}
 			]
@@ -107,8 +102,8 @@
 				},
 				{
 					"name": "Local Information",
-					"link": "http://www.gohawaii.com/en/big-island/regions-neighborhoods/kohala-coast",
-					"openInNewWindow": true
+					"link": "local-information.php",
+					"openInNewWindow": false
 				},
 				{
 					"name": "Map",
@@ -120,11 +115,6 @@
 		"thirdSection":{
 			"title":"author links",
 			"links":[
-				{
-					"name": "Submission Policy",
-					"link": "authors.php",
-					"openInNewWindow": false
-				},
 				{
 					"name": "Article Templates",
 					"link": "http://css.paperplaza.net/conferences/support/support.php",
@@ -138,6 +128,16 @@
 				{
 					"name": "Visa Information",
 					"link": "visa-information.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Student Best Paper Award",
+					"link": "student-paper-award.php",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Student Travel Support",
+					"link": "student-travel-support.php",
 					"openInNewWindow": false
 				}
 			]
@@ -175,14 +175,24 @@
 	},
 	"newsTicker":[
 		{
-			"content":"Click here for best student paper nomination",
-			"link":"student-paper-award.php",
+			"content":"Conference registration is now OPEN!!  Click here.",
+			"link":"registration.php",
 			"openInNewWindow": false
 		},
 		{
-			"content":"Click here for hotel information",
-			"link":"hotel.php",
+			"content":"Make your hotel reservations soon!",
+			"link":"http://bookings.ihotelier.com/bookings.jsp?groupID=1650953&hotelID=13074",
+			"openInNewWindow": true
+		},
+		{
+			"content":"Check out the Pre-Conference Workshops!",
+			"link":"workshops.php",
 			"openInNewWindow": false
-		}
+		},
+		{
+			"content":"Click here for information on shuttle service.",
+			"link":"shuttle-service.php",
+			"openInNewWindow": false
+		}		
 	]
 }

@@ -28,6 +28,18 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</a>
 	</div>
 
+
+	<div style="clear: both;margin-top:20px">
+		<a style="color:blue;font-size: 20px;" href="student-room-sharing.php">
+			<div style="float:left;color:blue;width:100px">
+				<i class="fa fa-4x fa-hotel" aria-hidden="true"></i>
+			</div> 
+			<div style="padding-top:6%;float:left">
+				Student Room Sharing Coordination
+			</div>
+		</a>
+	</div>
+
 </div>
 
 
