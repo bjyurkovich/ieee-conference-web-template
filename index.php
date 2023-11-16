@@ -47,9 +47,9 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <!-- 	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
 
-	
-	
-	Welcome to the IEEE Global Blockchain Conference 2024 in China! As we look ahead to this monumental event scheduled for next year, we invite you to join us in embracing the excitement it promises. In 2024, we'll come together not only to delve into cutting-edge technological advancements but also to create a vibrant platform for research exchange, international collaboration, and a shared commitment to open, inclusive, and innovative progress in the field of blockchain. Get ready to embark on this enriching journey with us!
+	The year 2024 will witness a monumental event—the IEEE Global Blockchain Conference in China. This event will not only focus on the technological advances but will also serve as a platform for sharing research, fostering international collaborations, and highlighting commitment to open, inclusive, and innovative technological advancements in blockchain.
+	<br><br>
+	We extend a warm welcome to all attendees, and we hope you have a rewarding and enriching experience at the conference. Join us as we explore the future of blockchain technology and engage in insightful discussions with experts from around the world.
 	<br><br>
 </div>
 
