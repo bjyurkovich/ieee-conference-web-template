@@ -47,9 +47,10 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <!-- 	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
 
-	On January 1, 2018, the IEEE Blockchain initiative was born, marking a new era for blockchain-related activities within IEEE. Under the guidance of Professor Liu Erwu from Tongji University, the Asia-Pacific and China regions have seen substantial growth, boasting 18 working groups that drive innovation and collaboration across Shanghai, Beijing, Shenzhen, Hangzhou, Hong Kong, and Macau/Guangzhou.
+	
+	
+	Welcome to the IEEE Global Blockchain Conference 2024 in China! As we look ahead to this monumental event scheduled for next year, we invite you to join us in embracing the excitement it promises. In 2024, we'll come together not only to delve into cutting-edge technological advancements but also to create a vibrant platform for research exchange, international collaboration, and a shared commitment to open, inclusive, and innovative progress in the field of blockchain. Get ready to embark on this enriching journey with us!
 	<br><br>
-	The year 2024 will witness a monumental event—the IEEE World Blockchain Conference in China. This event will not only focus on the technological advances but will also serve as a platform for sharing research, fostering international collaborations, and highlighting China's commitment to open, inclusive, and innovative technological advancements.
 </div>
 
 
