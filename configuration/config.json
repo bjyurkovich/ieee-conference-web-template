@@ -1,54 +1,54 @@
 {
 	"meta":{
-		"conferenceYear": 2017,
-		"dateStart": "2017-08-27",
-		"dateEnd": "2017-08-30",
-		"conferenceName": "CCTA 2017"
+		"conferenceYear": 2024,
+		"dateStart": "2024-07-03",
+		"dateEnd": "2024-07-05",
+		"conferenceName": "Global Blockchain Conference"
 	},
 	"header":{
-		"title" : "CCTA 2017",
-		"subtitle" : "1st IEEE Conference on Control Technology and Applications",
-		"dateTitle" : "August 27-30, 2017",
-		"locationPlaceName": "The Mauna Lani Bay Hotel and Bungalows",
-		"locationAreaName": "Kohala Coast, Hawai'i",
-		"bannerImage":"images/hotel1-banner.jpg",
+		"title" : "GBC 2024",
+		"subtitle" : "IEEE Global Blockchain Conference",
+		"dateTitle" : "July 3-5, 2024",
+		"locationPlaceName": "TBA",
+		"locationAreaName": "ShangHai, China",
+		"bannerImage":"images/banner.jpg",
 		"bannerTopPlacement" : "-310px",
 		"bannerRightPlacement" : "-640px"
 	},
 	"socialMediaLinks":{
-		"facebook":"https://www.facebook.com/IEEECCTA2017/",
-		"twitter":"https://twitter.com/CCTA2017"
+		"facebook":"",
+		"twitter":""
 	},
 	"dates":[
 		{
-			"title":"Paper Submission Opens (<a target='_blank' href='http://css.paperplaza.net/'>link</a>)",
-			"date": "December 15, 2016",
+			"title":"Paper Submission Opens (<a target='_blank' href=''>link</a>)",
+			"date": "TBA",
 			"showInNavBar": true
 		},
 		{
 			"title":"Invited Session Proposals Due",
-			"date": "Submission window closed",
+			"date": "TBA",
 			"showInNavBar": true
 		},
 		{
 			"title":"Contributed and Invited Papers Due",
-			"date": "Submission window closed",
+			"date": "TBA",
 			"showInNavBar": true
 		},
 		{
 			"title":"Notification of Acceptance",
-			"date": "June 1, 2017",
+			"date": "TBA",
 			"showInNavBar": true
 		},
 		{
 			"title":"Final Submissions Due",
-			"date": "July 1, 2017",
+			"date": "TBA",
 			"showInNavBar": true
 		},
 		{
-			"title":"CCTA 2017 Conference Dates",
-			"date": "August 27-30, 2017",
-			"showInNavBar": false
+			"title":"IEEE Global Blockchain Conference Dates",
+			"date": "July 3-5, 2024",
+			"showInNavBar": true
 		}
 	],
 	"footerLinks":{
@@ -56,27 +56,27 @@
 			"title":"conference",
 			"links":[
 				{
-					"name": "Technical Program",
+					"name": "",
 					"link": "technical-program.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Plenary Speakers",
+					"name": "",
 					"link": "plenary-speakers.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Workshops",
+					"name": "",
 					"link": "workshops.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Social Events ",
+					"name": "",
 					"link": "events.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Panel Session",
+					"name": "",
 					"link": "panel-session.php",
 					"openInNewWindow": false
 				}
@@ -86,28 +86,23 @@
 			"title":"destination",
 			"links":[
 				{
-					"name": "Hotel",
+					"name": "",
 					"link": "hotel.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Big Island",
-					"link": "http://www.gohawaii.com/en/big-island/regions-neighborhoods/kohala-coast/",
+					"name": "",
+					"link": "",
 					"openInNewWindow": true
 				},
 				{
-					"name": "Flights",
-					"link": "https://www.google.com/flights/#search;t=r-Big+Island,+United+States-0x7953e7c1c5f73a59%253A0x1455a492f9d78134;d=2017-03-07;r=2017-03-11;mc=e",
-					"openInNewWindow": true
-				},
-				{
-					"name": "Local Information",
-					"link": "local-information.php",
+					"name": "",
+					"link": "",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Map",
-					"link": "https://www.google.com/maps/place/Mauna+Lani+Bay+Hotel+%26+Bungalows/@19.946191,-155.8692267,879m/data=!3m1!1e3!4m2!3m1!1s0x79538793d6e16f1f:0xa7e015de3a37325a",
+					"name": "",
+					"link": "",
 					"openInNewWindow": true
 				}
 			]
@@ -116,27 +111,27 @@
 			"title":"author links",
 			"links":[
 				{
-					"name": "Article Templates",
-					"link": "http://css.paperplaza.net/conferences/support/support.php",
+					"name": "",
+					"link": "",
 					"openInNewWindow": true
 				},
 				{
-					"name": "PaperPlaza",
-					"link": "http://css.paperplaza.net",
+					"name": "",
+					"link": "",
 					"openInNewWindow": true
 				},
 				{
-					"name": "Visa Information",
+					"name": "",
 					"link": "visa-information.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Student Best Paper Award",
+					"name": "",
 					"link": "student-paper-award.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Student Travel Support",
+					"name": "",
 					"link": "student-travel-support.php",
 					"openInNewWindow": false
 				}
@@ -151,22 +146,22 @@
 					"openInNewWindow": false
 				},
 				{
-					"name": "Organizers",
+					"name": "",
 					"link": "organizers.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Visa Information",
+					"name": "",
 					"link": "visa-information.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Events",
+					"name": "",
 					"link": "events.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "Registration",
+					"name": "",
 					"link": "registration.php",
 					"openInNewWindow": false
 				}
@@ -176,22 +171,22 @@
 	"newsTicker":[
 		{
 			"content":"Conference registration is now OPEN!!  Click here.",
-			"link":"registration.php",
+			"link":"",
 			"openInNewWindow": false
 		},
 		{
 			"content":"Make your hotel reservations soon!",
-			"link":"http://bookings.ihotelier.com/bookings.jsp?groupID=1650953&hotelID=13074",
+			"link":"",
 			"openInNewWindow": true
 		},
 		{
 			"content":"Check out the Pre-Conference Workshops!",
-			"link":"workshops.php",
+			"link":"",
 			"openInNewWindow": false
 		},
 		{
 			"content":"Click here for information on shuttle service.",
-			"link":"shuttle-service.php",
+			"link":"",
 			"openInNewWindow": false
 		}		
 	]

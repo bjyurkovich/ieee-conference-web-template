@@ -95,9 +95,9 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<div class="header-title bold" style="font-size: medium;"><?php echo $json['header']['locationPlaceName'];?> <br> <?php echo $json['header']['locationAreaName'];?></div>
 				</div>
 				<div id="header-quick-links" class="flex flex-wrap">
-					<button onclick="location.href='hotel.php';">HOTEL</button>
-					<button onclick="location.href='authors.php';">AUTHORS</button>
-					<button onclick="location.href='dates.php';">DATES</button>
+					<button onclick="location.href='';">HOTEL</button>
+					<button onclick="location.href='';">AUTHORS</button>
+					<button onclick="location.href='';">DATES</button>
 				</div>
 				<div id="news-ticker" class="flex flex-wrap news-ticker">
 					<p style="padding:0;margin:0;font-size:smaller">
@@ -109,9 +109,9 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 				</div>
 			</div>
 			<div class="flex flex-wrap logos" style="width: 15%">
-				<div class="" style="margin-top:3%;width:100%;height:85px;background:url(images/css-logo.png) no-repeat"></div>
-				<div style="margin-top:1%;width:220px;height:85px;background:url(images/robotics-logo.png) no-repeat"></div>
-				<div style="margin-top:1%;width:220px;height:85px;background:url(images/sice-logo.png) no-repeat"></div>
+				<div class="" style="margin-top:3%;width:100%;height:85px;background:url(images/) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(images/) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(images/) no-repeat"></div>
 			</div>
 		</div>
 		<div id="content-container" class="flex flex-auto flex-space-between">
@@ -120,7 +120,7 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<li name="back" class="bold" style="font-size: x-large">IEEE <?php echo $json['meta']['conferenceName'];?><a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
 					<li name="home"><a href="index.php"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
 
-					<li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
+					<!-- <li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
 
 					<li name="hotel"><a href="hotel.php"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>HOTEL</a></li>
 
@@ -139,7 +139,7 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
 					
 					<li name="visa-information"><a href="sponsors.php"><i class="fa fa-lg fa-thumbs-up" aria-hidden="true"></i>SPONSORS</a></li>
-					
+					 -->
 
 				</ul>
 			</div>
