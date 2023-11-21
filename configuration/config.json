@@ -170,22 +170,22 @@
 	},
 	"newsTicker":[
 		{
-			"content":"Conference registration is now OPEN!!  Click here.",
+			"content":"Stay tuned!",
 			"link":"",
 			"openInNewWindow": false
 		},
 		{
-			"content":"Make your hotel reservations soon!",
-			"link":"",
-			"openInNewWindow": true
-		},
-		{
-			"content":"Check out the Pre-Conference Workshops!",
+			"content":"Stay tuned!",
 			"link":"",
 			"openInNewWindow": false
 		},
 		{
-			"content":"Click here for information on shuttle service.",
+			"content":"Stay tuned!",
+			"link":"",
+			"openInNewWindow": false
+		},
+		{
+			"content":"Stay tuned!",
 			"link":"",
 			"openInNewWindow": false
 		}		

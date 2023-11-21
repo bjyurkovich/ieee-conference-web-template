@@ -25,7 +25,7 @@
 							} 
 
 	 					?>
-	 					<li style="font-size:small;color:red;text-transform:uppercase;cursor:pointer"><a target="_blank" href="">Download the call for papers</a></li>
+	 					<li style="font-size:small;color:red;text-transform:uppercase;cursor:pointer"><a target="_blank" href="">Stay tuned!</a></li>
 					</ul>
 				</div>
 				
