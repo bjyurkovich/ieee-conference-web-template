@@ -51,6 +51,10 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<br><br>
 	We extend a warm welcome to all attendees, and we hope you have a rewarding and enriching experience at the conference. Join us as we explore the future of blockchain technology and engage in insightful discussions with experts from around the world.
 	<br><br>
+	Backgrond of the Conference:
+	<br><br>
+	On January 1, 2018, the IEEE Blockchain Organization was established to oversee all activities related to blockchain within IEEE. Professor Liu Erwu from Tongji University is responsible for the development of the IEEE Blockchain Asia-Pacific/China region. Currently, IEEE Blockchain has a total of 61 working groups worldwide, with 18 working groups in the Asia-Pacific region. Among them, Tongji University has facilitated the establishment of 6 working groups in the Chinese region, including Shanghai, Beijing, Shenzhen, Hangzhou, Hong Kong, and Macau/Guangzhou.
+	<br><br>
 </div>
 
 
