@@ -120,11 +120,11 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<li name="back" class="bold" style="font-size: x-large">IEEE <?php echo $json['meta']['conferenceName'];?><a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
 					<li name="home"><a href="index.php"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
 
-					<!-- <li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
+					<!-- <li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li> -->
 
-					<li name="hotel"><a href="hotel.php"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>HOTEL</a></li>
+					<!-- <li name="hotel"><a href="hotel.php"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>HOTEL</a></li> -->
 
-					<li name="hotel"><a href="technical-program.php"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i>TECHNICAL PROGRAM</a></li>
+					<!-- <li name="hotel"><a href="technical-program.php"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i>TECHNICAL PROGRAM</a></li>
 
 					<li name="hotel"><a href="workshops.php"><i class="fa fa-lg fa-wrench" aria-hidden="true"></i>WORKSHOPS</a></li>
 
@@ -138,8 +138,8 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					
 					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
 					
-					<li name="visa-information"><a href="sponsors.php"><i class="fa fa-lg fa-thumbs-up" aria-hidden="true"></i>SPONSORS</a></li>
-					 -->
+					<li name="visa-information"><a href="sponsors.php"><i class="fa fa-lg fa-thumbs-up" aria-hidden="true"></i>SPONSORS</a></li> -->
+					
 
 				</ul>
 			</div>
