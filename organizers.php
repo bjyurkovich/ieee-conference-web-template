@@ -27,7 +27,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/elisa.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Elisa Bertino</div>
-			<div class="role bold">IEEE Fellow</div>
+			<div class="role bold">IEEE Fellow, ACM Fellow</div>
 			<div class="affiliation">Purdue University, USA</div>
 		</div>
 	</div>
