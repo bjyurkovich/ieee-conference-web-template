@@ -1,16 +1,17 @@
 {
 	"meta":{
 		"conferenceYear": 2024,
-		"dateStart": "2024-07-03",
-		"dateEnd": "2024-07-05",
+		"dateStart": "2024-08-21",
+		"dateEnd": "2024-08-23",
 		"conferenceName": "Global Blockchain Conference"
 	},
 	"header":{
 		"title" : "GBC 2024",
 		"subtitle" : "IEEE Global Blockchain Conference",
-		"dateTitle" : "July 3-5, 2024",
+		"dateTitle" : "August 21-23, 2024",
 		"locationPlaceName": "TBA",
 		"locationAreaName": "ShangHai, China",
+		"slogon":"Transforming a Trustworthy DigitaFuture !",
 		"bannerImage":"images/banner.jpg",
 		"bannerTopPlacement" : "-310px",
 		"bannerRightPlacement" : "-640px"

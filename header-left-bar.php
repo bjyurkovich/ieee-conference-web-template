@@ -93,12 +93,13 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<div class="header-title bold" style="font-size: x-large;"><?php echo $json['header']['subtitle'];?></div>
 					<div class="header-title bold" style="font-size: large;"><?php echo $json['header']['dateTitle'];?></div>
 					<div class="header-title bold" style="font-size: medium;"><?php echo $json['header']['locationPlaceName'];?> <br> <?php echo $json['header']['locationAreaName'];?></div>
+					<div class="header-title bold" style="font-size: x-large;"><?php echo $json['header']['slogon'];?></div>
 				</div>
-				<div id="header-quick-links" class="flex flex-wrap">
+				<!-- <div id="header-quick-links" class="flex flex-wrap">
 					<button onclick="location.href='';">HOTEL</button>
 					<button onclick="location.href='';">AUTHORS</button>
 					<button onclick="location.href='';">DATES</button>
-				</div>
+				</div> -->
 				<div id="news-ticker" class="flex flex-wrap news-ticker">
 					<p style="padding:0;margin:0;font-size:smaller">
 						<i style="color:red;margin-right:10px" class="fa fa-1x fa-newspaper-o"></i> 
@@ -119,6 +120,8 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 				<ul class="left-bar list-reset" style="">
 					<li name="back" class="bold" style="font-size: x-large">IEEE <?php echo $json['meta']['conferenceName'];?><a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
 					<li name="home"><a href="index.php"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
+
+					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
 
 					<!-- <li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li> -->
 
