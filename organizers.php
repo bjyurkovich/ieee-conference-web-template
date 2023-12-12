@@ -37,7 +37,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="info-container">
 			<div class="name">Chonggang Wang</div>
 			<div class="role bold">IEEE Fellow</div>
-			<div class="affiliation">Princeton University, USA</div>
+			<div class="affiliation">InterDigital, Inc., USA</div>
 		</div>
 	</div>
 
