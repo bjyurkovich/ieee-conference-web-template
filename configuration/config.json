@@ -11,14 +11,15 @@
 		"dateTitle" : "August 21-23, 2024",
 		"locationPlaceName": "TBA",
 		"locationAreaName": "ShangHai, China",
-		"slogon":"Transforming a Trustworthy DigitaFuture !",
+		"slogon":"Transforming a Trustworthy DigitaFuture",
 		"bannerImage":"images/banner.jpg",
 		"bannerTopPlacement" : "-310px",
 		"bannerRightPlacement" : "-640px"
 	},
 	"socialMediaLinks":{
 		"facebook":"",
-		"twitter":""
+		"twitter":"",
+		"website":""
 	},
 	"dates":[
 		{

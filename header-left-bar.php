@@ -96,7 +96,6 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<div class="header-title bold" style="font-size: x-large;"><?php echo $json['header']['slogon'];?></div>
 				</div>
 				<!-- <div id="header-quick-links" class="flex flex-wrap">
-					<button onclick="location.href='';">HOTEL</button>
 					<button onclick="location.href='';">AUTHORS</button>
 					<button onclick="location.href='';">DATES</button>
 				</div> -->
