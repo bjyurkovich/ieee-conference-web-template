@@ -14,7 +14,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/liuerwu.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">刘儿兀</div>
+			<div class="name">Erwu Liu</div>
 			<div class="role">IET Fellow</div>
 			<div class="affiliation">Tongji University, China</div>
 		</div>
@@ -36,7 +36,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/chonggangwang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Chonggang Wang</div>
-			<div class="role bold">IEEE Fellow</div>
+			<div class="role bold">IEEE Fellow, Founding EiC of IEEE IoT Journal, EiC of IEEE Network</div>
 			<div class="affiliation">InterDigital, Inc., USA</div>
 		</div>
 	</div>
@@ -44,7 +44,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/cuishuguang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">崔曙光</div>
+			<div class="name">Shuguang Cui</div>
 			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">The Chinese University of Hong Kong, Shenzhen, China</div>
 		</div>
@@ -53,7 +53,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/renkui.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">任奎</div>
+			<div class="name">Kui Ren</div>
 			<div class="role bold">IEEE Fellow, ACM Fellow</div>
 			<div class="affiliation">Zhejiang University, China</div>
 		</div>
@@ -63,7 +63,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/leizhang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Lei Zhang</div>
-			<div class="role bold">Associate Editor of IEEE Internet of Things Journal</div>
+			<div class="role bold">Associate Editor of IEEE IoT Journal, IEEE Wireless Communications Letters and Digital Communications and Networks</div>
 			<div class="affiliation">University of Glasgow, UK</div>
 		</div>
 	</div>
