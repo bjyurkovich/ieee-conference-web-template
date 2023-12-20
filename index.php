@@ -1,5 +1,5 @@
 <?php 
-$pageTitle='欢迎'; //THIS MUST BE SET FOR EACH PAGE
+$pageTitle='welcome'; //THIS MUST BE SET FOR EACH PAGE
 require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 
