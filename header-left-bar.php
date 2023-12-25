@@ -120,9 +120,11 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<li name="back" class="bold" style="font-size: x-large">IEEE <?php echo $json['meta']['conferenceName'];?><a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
 					<li name="home"><a href="index.php"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
 
-					<li name="about"><a href="about.php"><i class="fa fa-lg fa-graduation-cap" aria-hidden="true"></i>ABOUT</a></li>
+					<li name="about"><a href="about.php"><i class="fa fa-lg fa-info" aria-hidden="true"></i>ABOUT</a></li>
 
 					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>COMMITTEES</a></li>
+
+					<li name="home"><a href="index.php"><i class="fa fa-lg fa-microphone" aria-hidden="true"></i>KeyNote</a></li>
 
 					<li name="authors"><a href="authors.php"><i class="fa fa-lg fa-pencil-square-o" aria-hidden="true"></i>AUTHORS</a></li>
 
