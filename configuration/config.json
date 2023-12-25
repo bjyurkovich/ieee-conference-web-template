@@ -58,27 +58,27 @@
 			"title":"conference",
 			"links":[
 				{
-					"name": "",
+					"name": "program",
 					"link": "technical-program.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "plenary-speakers",
 					"link": "plenary-speakers.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "workshops",
 					"link": "workshops.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "events",
 					"link": "events.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "panel-session",
 					"link": "panel-session.php",
 					"openInNewWindow": false
 				}
@@ -88,7 +88,7 @@
 			"title":"destination",
 			"links":[
 				{
-					"name": "",
+					"name": "hotel",
 					"link": "hotel.php",
 					"openInNewWindow": false
 				},
@@ -148,22 +148,22 @@
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "organizers",
 					"link": "organizers.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "visa-information",
 					"link": "visa-information.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "events",
 					"link": "events.php",
 					"openInNewWindow": false
 				},
 				{
-					"name": "",
+					"name": "registration",
 					"link": "registration.php",
 					"openInNewWindow": false
 				}

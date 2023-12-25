@@ -120,27 +120,21 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					<li name="back" class="bold" style="font-size: x-large">IEEE <?php echo $json['meta']['conferenceName'];?><a href="#" class="slide-back"><i class="fa fa-lg fa-arrow-circle-left" aria-hidden="true"></i></a></li>
 					<li name="home"><a href="index.php"><i class="fa fa-lg fa-home" aria-hidden="true"></i>HOME</a></li>
 
-					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
+					<li name="about"><a href="about.php"><i class="fa fa-lg fa-graduation-cap" aria-hidden="true"></i>ABOUT</a></li>
 
-					<!-- <li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li> -->
-
-					<!-- <li name="hotel"><a href="hotel.php"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>HOTEL</a></li> -->
-
-					<!-- <li name="hotel"><a href="technical-program.php"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i>TECHNICAL PROGRAM</a></li>
-
-					<li name="hotel"><a href="workshops.php"><i class="fa fa-lg fa-wrench" aria-hidden="true"></i>WORKSHOPS</a></li>
-
-					<li name="events"><a href="events.php"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i>EVENTS</a></li>
+					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>COMMITTEES</a></li>
 
 					<li name="authors"><a href="authors.php"><i class="fa fa-lg fa-pencil-square-o" aria-hidden="true"></i>AUTHORS</a></li>
 
-					<li name="students"><a href="student-router.php"><i class="fa fa-lg fa-graduation-cap" aria-hidden="true"></i>STUDENTS</a></li>
+					<li name="hotel"><a href="technical-program.php"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i>PROGRAM</a></li>
 
-					<li name="visa-information"><a href="visa-information.php"><i class="fa fa-lg fa-globe" aria-hidden="true"></i>VISA INFORMATION</a></li>
-					
-					<li name="organizers"><a href="organizers.php"><i class="fa fa-lg fa-users" aria-hidden="true"></i>ORGANIZERS</a></li>
-					
-					<li name="visa-information"><a href="sponsors.php"><i class="fa fa-lg fa-thumbs-up" aria-hidden="true"></i>SPONSORS</a></li> -->
+					<li name="registration"><a href="registration.php"><i class="fa fa-lg fa-sign-in" aria-hidden="true"></i>REGISTRATION</a></li>
+
+					<li name="hotel"><a href="hotel.php"><i class="fa fa-lg fa-bed" aria-hidden="true"></i>VENUE/HOTEL</a></li>
+
+					<li name="events"><a href="events.php"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i>EVENTS</a></li>
+
+					<li name="visa-information"><a href="sponsors.php"><i class="fa fa-lg fa-globe" aria-hidden="true"></i>PATRONS</a></li>
 					
 
 				</ul>
