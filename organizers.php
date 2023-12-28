@@ -1,5 +1,5 @@
 <?php 
-$pageTitle='Organizers'; //THIS MUST BE SET FOR EACH PAGE
+$pageTitle='Committees'; //THIS MUST BE SET FOR EACH PAGE
 $stylesheet='css/organizers.css';
 require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
