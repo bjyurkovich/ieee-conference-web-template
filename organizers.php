@@ -96,7 +96,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="text">
 	
 	<div style="">
-			<a style="color:blue;font-size: 20px" href="OrganizingC.php">
+			<a style="color:blue;font-size: 20px" href="organizingC.php">
 				<div style="padding-top:6%;float:left">
 					Organizing Committee
 				</div>

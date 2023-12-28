@@ -83,23 +83,8 @@
 					"openInNewWindow": false
 				},
 				{
-					"name": "plenary-speakers",
-					"link": "plenary-speakers.php",
-					"openInNewWindow": false
-				},
-				{
-					"name": "workshops",
-					"link": "workshops.php",
-					"openInNewWindow": false
-				},
-				{
 					"name": "events",
 					"link": "events.php",
-					"openInNewWindow": false
-				},
-				{
-					"name": "panel-session",
-					"link": "panel-session.php",
 					"openInNewWindow": false
 				}
 			]
@@ -144,17 +129,17 @@
 				},
 				{
 					"name": "",
-					"link": "visa-information.php",
+					"link": "",
 					"openInNewWindow": false
 				},
 				{
 					"name": "",
-					"link": "student-paper-award.php",
+					"link": "",
 					"openInNewWindow": false
 				},
 				{
 					"name": "",
-					"link": "student-travel-support.php",
+					"link": "",
 					"openInNewWindow": false
 				}
 			]
@@ -170,11 +155,6 @@
 				{
 					"name": "organizers",
 					"link": "organizers.php",
-					"openInNewWindow": false
-				},
-				{
-					"name": "visa-information",
-					"link": "visa-information.php",
 					"openInNewWindow": false
 				},
 				{
