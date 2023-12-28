@@ -46,7 +46,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 <div class="text">
 
 <!-- 	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
-	Here is the info
+Stay tuned
 	<br><br>
 </div>
 

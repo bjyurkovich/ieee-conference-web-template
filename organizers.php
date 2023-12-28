@@ -93,6 +93,42 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 	<div class="spacer"></div>
 
+	<div class="text">
+	
+	<div style="">
+			<a style="color:blue;font-size: 20px" href="OrganizingC.php">
+				<div style="padding-top:6%;float:left">
+					Organizing Committee
+				</div>
+			</a>
+		</div> 
+
+		<div style="clear: both;margin-top:20px">
+			<a style="color:blue;font-size: 20px;" href="TPC.php">
+				<div style="padding-top:6%;float:left">
+					Technical Program Committee
+				</div>
+			</a>
+		</div>
+
+
+		<div style="clear: both;margin-top:20px">
+			<a style="color:blue;font-size: 20px;" href="IFEC.php">
+				<div style="padding-top:6%;float:left">
+					IF&E Committee
+				</div>
+			</a>
+		</div>
+
+		<div style="clear: both;margin-top:20px">
+			<a style="color:blue;font-size: 20px;" href="operationC.php">
+				<div style="padding-top:6%;float:left">
+					Operations Committee
+				</div>
+			</a>
+		</div>
+
+	</div>
 </div>
 
 <?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>

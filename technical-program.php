@@ -5,8 +5,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 
 <div class="text">
-
-	<div style="font-weight: bold; font-size: larger;">The Preliminary Program is now ready for viewing; please <a style="color:red" href="https://css.paperplaza.net/conferences/scripts/rtf/CCTA17_ProgramAtAGlanceWeb.html" target="_blank">click here</a>. </div>
+Stay tuned
+	<!-- <div style="font-weight: bold; font-size: larger;">The Preliminary Program is now ready for viewing; please <a style="color:red" href="https://css.paperplaza.net/conferences/scripts/rtf/CCTA17_ProgramAtAGlanceWeb.html" target="_blank">click here</a>. </div>
 	<br>
 	<div style="font-weight: bold">Be sure to check back here frequently as the Technical Program changes due to cancellations, substitutions, and changes.  Note that the Tuesday portion has recently changed to accommodate such changes. The program will not be finalized until late July.</div>
 	<br><br>
@@ -24,7 +24,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	In addition to presentations by authors of articles, the Technical Program will consist of three keynote Plenary Presentations by recognized experts in the field of control technology and applications. Two plenaries will take place on Monday and Wednesday mornings of the conference (August 28 and August 30), and a third keynote presentation will be by the 2016 Control Systems Society Transition to Practice award recipient; please <a href="plenary-speakers.php" style="color:red">click here</a> for more information.
 
 	<br/><br/>
-	Finally, the CCTA 2017 Technical Program will consist of three special pre-Conference Workshops; please <a href="workshops.php" style="color:red">click here for information.</a>
+	Finally, the CCTA 2017 Technical Program will consist of three special pre-Conference Workshops; please <a href="workshops.php" style="color:red">click here for information.</a> -->
 
 </div>
 

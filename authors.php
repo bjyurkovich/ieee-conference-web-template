@@ -5,7 +5,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 
 <div class="flex flex-auto" style="padding-top: 1%">
-<div style="margin-bottom: 1%;">
+<!-- <div style="margin-bottom: 1%;">
 		<div style="font-weight: bold;font-size: larger">Decision notifications from the article review process have been sent out; please see the Technical Program page for a link to the program. If you are an author and/or presenter of an article at the CCTA 2017, please note the following.
 </div>
 
@@ -26,7 +26,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 			<li>Authors making presentations at the conference should plan on bringing their own notebooks/tablets/laptops for their presentations. Although the projectors used in the sessions will have multiple input capabilities (VGA is standard), it is possible that an adaptor may be required. The conference organizers will have a limited number and variety of adapters available on site, but presenters should plan on also bringing their own adapters for their presentation devices.</li>
 		</ul>
-</div>
+</div> -->
+Stay tuned
 </div>
 
 <div style="height:50px;"></div>

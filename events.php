@@ -5,7 +5,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 
 <div class="text">
-	<p>
+	<!-- <p>
 		We have received a tremendous response to publicity efforts for CCTA 2017, so we expect a much larger crowd than originally anticipated.   Thanks to all participants for helping to make the first annual IEEE Conference on Control Technology and Applications a memorable occasion!
 	</p>
 
@@ -72,9 +72,9 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			
 		</ul>
 		</p>
-	</p>
+	</p> -->
 
-	<p>
+	<!-- <p>
 		<h2>Tuesday, August 29, 2017</h2>
 		<p>
 			<ul style="list-style: disc; margin-left: 3%">
@@ -83,9 +83,9 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 
 			</li>
-			<!-- <li>
+			<li>
 				Technical Program regular and invited sessions 8:30AM - 3:30PM
-			</li> -->
+			</li>
 			<li>
 				<span style="font-weight: bold">Keynote Presentation</span>, Transition to Practice Award Recipient, 8:30AM - 9:30AM (Hale Hoaloha Pavilion)
 			</li>
@@ -122,8 +122,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			</li>
 		</ul>
 		</p>
-	</p>
-
+	</p> -->
+	Stay tuned
 </div>
 
 

@@ -6,7 +6,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <div class="text" style="margin-top:3%;margin-bottom: 5%;">
 
-<p style="font-size: x-large; font-weight: bold; line-height: 30px">
+<!-- <p style="font-size: x-large; font-weight: bold; line-height: 30px">
 		Please <a href="shuttle-service.php" style="color:red">click here</a> for information about the shuttle service contracted to transport CCTA 2017 attendees between the overflow hotel (Hilton Waikoloa) and the conference hotel (Mauna Lani Bay Hotel).
 	</p>
 
@@ -33,13 +33,13 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<p>To book your room, please use the following link: <a style="color:red" href="http://bookings.ihotelier.com/bookings.jsp?groupID=1650953&hotelID=13074" target="_blank">Reserve your room</a> <br>
 	If you would like to call in to make room reservation, the number is 808-885-6622.</p>
 
-<!-- 	<div id="images" class="flex flex-wrap justify-center">
+	<div id="images" class="flex flex-wrap justify-center">
 		<div class="about-image" style="background: url(images/hotel/hotel1.jpg) 150px 150px"></div>
 		<div class="about-image" style="background: url(images/hotel/hotel2.jpg) 150px 150px"></div>
 		<div class="about-image" style="background: url(images/hotel/hotel3.jpg) 150px 150px"></div>
 		<div class="about-image" style="background: url(images/hotel/hotel4.jpg) 150px 150px"></div>
 		<div class="about-image" style="background: url(images/hotel/hotel5.jpg) 150px 150px"></div>
-	</div> -->
+	</div>
 
 	<br><br>
 	<div>
@@ -76,7 +76,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			If you are renting a car on the Big Island, please note that self-parking during all conference events at the Mauna Lani Bay Hotel is complementary for CCTA 2017 attendees. Moreover, overnight parking is complementary for hotel guests as part of the resort package included in your hotel room charge.
 
 		</p>
-	</div>	
+	</div>	 -->
+	Stay tuned
 </div>
 
 

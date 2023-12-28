@@ -22,7 +22,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 </style>
 
 <div class="text">
-	<div style="font-weight: bold">
+	<!-- <div style="font-weight: bold">
 		Registration is now OPEN! <a style="color:red" href="http://css.paperplaza.net" target="_blank">Please click here</a>. Note that all attendees must register for the conference, whether author, presenter, or interested participant. Be sure to check out the pre-conference Workshops below.
 	</div>
 	<div style="width: 100%;border-bottom: 2px solid black; margin-bottom: 20px;margin-top: 20px;"></div>
@@ -145,7 +145,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</tbody>
 	</table>
 	</div>
-</div>
+</div> -->
+Stay tuned
 </div>
 
 

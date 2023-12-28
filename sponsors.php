@@ -4,11 +4,11 @@ $stylesheet='css/sponsors.css';
 require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 <div class="text">
-	The 1st IEEE CCTA is sponsored by the IEEE Control Systems Society with technical co-sponsorship through the IEEE Robotics and Automation Society, and is organized in cooperation with the Society for Instrument and Control Engineers (SICE). 
+Stay tuned
 </div>
 
 <div class="flex flex-wrap">
-	<div class="image-holder">
+	<!-- <div class="image-holder">
 		<img src="images/ieee-logo.png">
 	</div>
 	<div style="margin-left:5%" class="image-holder items-end">
@@ -19,7 +19,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 	<div style="margin-left:2%" class="image-holder">
 		<img src="images/sice-logo.png">
-	</div>
+	</div> -->
 
 </div>
 
