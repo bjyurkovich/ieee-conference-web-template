@@ -23,33 +23,53 @@
 	},
 	"dates":[
 		{
-			"title":"Paper Submission Opens (<a target='_blank' href=''>link</a>)",
-			"date": "TBA",
+			"title":"Call for Demo Proposals Due",
+			"date": "15 Jan, 2024",
 			"showInNavBar": true
 		},
 		{
-			"title":"Invited Session Proposals Due",
-			"date": "TBA",
+			"title":"Call for Workshop Proposals Due",
+			"date": "15 Jan, 2024",
+			"showInNavBar": true
+		},
+		{
+			"title":"Paper Submission Opens (<a target='_blank' href=''>link</a>)",
+			"date": "1 Feb, 2024",
+			"showInNavBar": true
+		},
+		{
+			"title":"Call for Tutorial Proposals Due",
+			"date": "15 March, 2024/1 May, 2024",
+			"showInNavBar": true
+		},
+		{
+			"title":"Call for Panel Proposals Due",
+			"date": "15 March, 2024/1 May, 2024",
+			"showInNavBar": true
+		},
+		{
+			"title":"1st Round Submissions Due",
+			"date": "1 March, 2024",
+			"showInNavBar": true
+		},
+		{
+			"title":"Final Round Submissions Due",
+			"date": "1 Apr, 2024",
 			"showInNavBar": true
 		},
 		{
 			"title":"Contributed and Invited Papers Due",
-			"date": "TBA",
+			"date": "15 May, 2024",
 			"showInNavBar": true
 		},
 		{
 			"title":"Notification of Acceptance",
-			"date": "TBA",
-			"showInNavBar": true
-		},
-		{
-			"title":"Final Submissions Due",
-			"date": "TBA",
+			"date": "1 July, 2024",
 			"showInNavBar": true
 		},
 		{
 			"title":"IEEE Global Blockchain Conference Dates",
-			"date": "July 3-5, 2024",
+			"date": "August 21-23, 2024",
 			"showInNavBar": true
 		}
 	],
