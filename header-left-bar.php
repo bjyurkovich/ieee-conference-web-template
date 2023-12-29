@@ -24,7 +24,7 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="keywords" content="CCTA2017,Conference,MSC2017,Control Systems Society,IEEE,MSC,CCA,Conference on Control Applications, ISIC, International Symposium on Intelligent Control, CACSD, Conference on Computer-Aided Control System Design, Multi-Conference on Systems and Control,  Multi-Conference on Systems and Control,CCA,Conference on Control Applications,IEEE Conference on Control Applications,ISIC,CSS,CACSD, IEEE Control Systems Society Conferences,IEEE Conference on Computer-Aided Control System Design">
+	<meta name="keywords" content="">
 
 	<style type="text/css">
 
@@ -89,7 +89,7 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 				<div class="bars"><a href="#left-bar-container"><i class="fa fa-2x fa-bars"></i></a></div>
 				<div class="dates"><a href="#right-bar"><i class="fa fa-2x fa-calendar"></i></a></div>
 				<div id="header-title-container">
-					<div class="header-title bold flux-auto" style=""><img src="images/ieee-logo.png" style=""></img><div style="vertical-align: middle;display: inline-block;"><?php echo $json['header']['title'];?></div></div>
+					<div class="header-title bold flux-auto" style=""><img src="images/logo/IEEE-Blue.png" style=""></img><div style="vertical-align: middle;display: inline-block;"><?php echo $json['header']['title'];?></div></div>
 					<div class="header-title bold" style="font-size: x-large;"><?php echo $json['header']['subtitle'];?></div>
 					<div class="header-title bold" style="font-size: large;"><?php echo $json['header']['dateTitle'];?></div>
 					<div class="header-title bold" style="font-size: medium;"><?php echo $json['header']['locationPlaceName'];?> <br> <?php echo $json['header']['locationAreaName'];?></div>
