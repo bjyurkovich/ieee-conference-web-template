@@ -47,14 +47,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <!-- 	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
 
-	The year 2024 will witness a monumental event—the IEEE Global Blockchain Conference in China. This event will not only focus on the technological advances but will also serve as a platform for sharing research, fostering international collaborations, and highlighting commitment to open, inclusive, and innovative technological advancements in blockchain.
-	<br><br>
-	We extend a warm welcome to all attendees, and we hope you have a rewarding and enriching experience at the conference. Join us as we explore the future of blockchain technology and engage in insightful discussions with experts from around the world.
-	<br><br>
-	Backgrond of the Conference:
-	<br><br>
-	On January 1, 2018, the IEEE Blockchain Organization was established to oversee all activities related to blockchain within IEEE. Professor Liu Erwu from Tongji University is responsible for the development of the IEEE Blockchain Asia-Pacific/China region. Currently, IEEE Blockchain has a total of 61 working groups worldwide, with 18 working groups in the Asia-Pacific region. Among them, Tongji University has facilitated the establishment of 6 working groups in the Chinese region, including Shanghai, Beijing, Shenzhen, Hangzhou, Hong Kong, and Macau/Guangzhou.
-	<br><br>
+Welcome to the IEEE Global Blockchain Conference 2024, where we're 'Transforming a Trustworthy Digital Future.' Engage with top minds to advance blockchain's role in shaping a trustworthy digital landscape. Join us for comprehensive high-quality technical program including six tracks and a variety of tutorials and workshops. IEEE GBC 2024 also include a series of visionary keynotes, panels, and discussions that will chart the course of tomorrow's blockchain innovation.
+<br><br>
 </div>
 
 

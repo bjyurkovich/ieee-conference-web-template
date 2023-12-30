@@ -7,7 +7,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 <div style="margin-top:5%; margin-bottom: 5%" class="flex-column">
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/chunchen.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Chun Chen</div>
 			<div class="role bold">Honorary General Chair</div>
@@ -16,7 +16,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/jiangchangjun.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Changjun Jiang</div>
 			<div class="role bold">Honorary General Chair</div>
@@ -25,7 +25,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 	
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/zhengzhiming.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Zhiming Zheng</div>
 			<div class="role bold">Honorary General Chair</div>
@@ -34,7 +34,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/liuerwu.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Erwu Liu</div>
 			<div class="role bold">General Chair</div>
@@ -61,7 +61,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div> -->
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/yizhilin.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Chih-Lin I.</div>
 			<div class="role bold">Steering Committee Chair</div>
@@ -94,7 +94,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 	<div class="organizer-group-title">Advisory Board Member</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/wuzhiqiang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Zhiqiang Wu</div>
 			<div class="role bold">Chair</div>
