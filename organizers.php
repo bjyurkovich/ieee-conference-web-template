@@ -6,7 +6,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <div style="margin-top:5%; margin-bottom: 5%" class="flex-column">
 
-	<div class="flex flex-auto person-container">
+	<!-- <div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/chunchen.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Chun Chen</div>
@@ -42,7 +42,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 
-	<!-- <div class="flex flex-auto person-container">
+	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name"></div>
@@ -58,7 +58,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="role bold">Vice General Chair</div>
 			<div class="affiliation"></div>
 		</div>
-	</div> -->
+	</div>
 
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/yizhilin.png);background-size:100px 100px;"></div>
@@ -70,7 +70,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 	<div class="spacer"></div>
 
-	<!-- <div class="organizer-group-title">Publication Co-Chair</div>
+	<div class="organizer-group-title">Publication Co-Chair</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
@@ -90,7 +90,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation"></div>
 		</div>
 	</div>
-	<div class="spacer"></div> -->
+	<div class="spacer"></div>
 
 	<div class="organizer-group-title">Advisory Board Member</div>
 	<div class="flex flex-auto person-container">
@@ -100,7 +100,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="role bold">Chair</div>
 			<div class="affiliation"></div>
 		</div>
-	</div>
+	</div> -->
 
 
 

@@ -54,7 +54,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 	<div class="spacer"></div>
 
-	<div class="organizer-group-title">Vice TPC Chair & Coordinator</div>
+	<!-- <div class="organizer-group-title">Vice TPC Chair & Coordinator</div>
 
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
@@ -66,7 +66,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 
 	<div class="spacer"></div>
-<!-- 
+
 	<div class="organizer-group-title">Workshop Chair</div>
 
 	<div class="flex flex-auto person-container">

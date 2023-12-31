@@ -89,7 +89,7 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 				<div class="bars"><a href="#left-bar-container"><i class="fa fa-2x fa-bars"></i></a></div>
 				<div class="dates"><a href="#right-bar"><i class="fa fa-2x fa-calendar"></i></a></div>
 				<div id="header-title-container">
-					<div class="header-title bold flux-auto" style=""><img src="images/logo/IEEE-Blue.png" style=""></img><div style="vertical-align: middle;display: inline-block;"><?php echo $json['header']['title'];?></div></div>
+					<div class="header-title bold flux-auto" style=""><img src="images/logo/IEEE-Blue.png" style=""></img><div style="vertical-align: middle;display: inline-block;color:#0073AE"><?php echo $json['header']['title'];?></div></div>
 					<div class="header-title bold" style="font-size: x-large;"><?php echo $json['header']['subtitle'];?></div>
 					<div class="header-title bold" style="font-size: large;"><?php echo $json['header']['dateTitle'];?></div>
 					<div class="header-title bold" style="font-size: medium;"><?php echo $json['header']['locationPlaceName'];?> <br> <?php echo $json['header']['locationAreaName'];?></div>
@@ -108,11 +108,11 @@ $json = json_decode(file_get_contents('configuration/config.json'), true);
 					</p>
 				</div>
 			</div>
-			<div class="flex flex-wrap logos" style="width: 15%">
-				<div class="" style="margin-top:3%;width:100%;height:85px;background:url(images/) no-repeat"></div>
-				<div style="margin-top:1%;width:220px;height:85px;background:url(images/) no-repeat"></div>
-				<div style="margin-top:1%;width:220px;height:85px;background:url(images/) no-repeat"></div>
-			</div>
+			<!-- <div class="flex flex-wrap logos" style="width: 15%">
+				<div class="" style="margin-top:3%;width:100%;height:85px;background:url(images/logo/) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(images/logo/IEEE-Blockchain.png) no-repeat"></div>
+				<div style="margin-top:1%;width:220px;height:85px;background:url(images/logo/SERCBAAS-Blue.png) no-repeat"></div>
+			</div> -->
 		</div>
 		<div id="content-container" class="flex flex-auto flex-space-between">
 			<div id=left-bar-container class="flex flex-auto col-2">

@@ -47,7 +47,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 <!-- 	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
 
-Welcome to the IEEE Global Blockchain Conference 2024, where we're 'Transforming a Trustworthy Digital Future.' Engage with top minds to advance blockchain's role in shaping a trustworthy digital landscape. Join us for comprehensive high-quality technical program including six tracks and a variety of tutorials and workshops. IEEE GBC 2024 also include a series of visionary keynotes, panels, and discussions that will chart the course of tomorrow's blockchain innovation.
+Welcome to the IEEE Global Blockchain Conference 2024, where we're 'Transforming a Trustworthy Digital Future' with IEEE President-Elect and ACM Vice President. Led by the EiCs of IEEE TDSC, IEEE TMC and IEEE Network, the technical program includes six tracks and a variety of tutorials and workshops. IEEE GBC 2024 also features a series of visionary keynotes, panels, and discussions from top minds to shape the future of blockchain.
 <br><br>
 </div>
 

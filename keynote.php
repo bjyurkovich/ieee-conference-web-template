@@ -1,5 +1,6 @@
 <?php 
 $pageTitle='KeyNotes'; //THIS MUST BE SET FOR EACH PAGE
+$stylesheet='css/organizers.css';
 require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 ?>
 
@@ -43,24 +44,44 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</p>
 </div>
 
-<div class="text">
+<div class="organizer-group-title">KeyNote Speaker</div>
 
-	<!-- <div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
+<div class="flex flex-auto person-container">
+	<div class="pic headshot round" style="background:url(images/organizers/thomas.png);background-size:100px 100px;"></div>
+	<div class="info-container">
+		<div class="name">Thomas Coughlin</div>
+		<div class="role">IEEE President Elect</div>
+		<!-- <div class="affiliation"></div> -->
+	</div>
+</div>
+
+<div class="flex flex-auto person-container">
+	<div class="pic headshot round" style="background:url(images/organizers/elisa.png);background-size:100px 100px;"></div>
+	<div class="info-container">
+		<div class="name">Elisa Bertino</div>
+		<div class="role">ACM Vice President</div>
+		<!-- <div class="affiliation"></div> -->
+	</div>
+</div>
+
+<!-- <div class="text">
+
+	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div>
 Stay tuned
 	<br><br>
-</div>
+</div> -->
 
 
 <?php 
 // replace the image files below with your own (you can keep the filenames if you want and rename your own).  Or, just delete the entire <div> below
 ?>
-<div id="images" class="flex flex-wrap justify-center">
+<!-- <div id="images" class="flex flex-wrap justify-center">
 	<div class="about-image" style="background: url(images/blockchain/blockchain1.png) 150px 150px"></div>
 	<div class="about-image" style="background: url(images/blockchain/blockchain2.png) 150px 150px"></div>
 	<div class="about-image" style="background: url(images/blockchain/blockchain3.png) 150px 150px"></div>
 	<div class="about-image" style="background: url(images/blockchain/blockchain4.png) 150px 150px"></div>
 	<div class="about-image" style="background: url(images/blockchain/blockchain5.png) 150px 150px"></div>
-</div>	
+</div>	 -->
 
 
 <?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>
