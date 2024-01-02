@@ -109,8 +109,7 @@
 					<div class="center">
 						&copy IEEE <?php echo $json['meta']['conferenceName'] ?>
 						<br><br>
-						<!-- <a target="_blank" href="<?php echo $json['socialMediaLinks']['facebook'] ?>"><i class="fa fa-3x fa-facebook"></i></a>
-						<a target="_blank" href="<?php echo $json['socialMediaLinks']['twitter'] ?>"><i class="fa fa-3x fa-twitter"></i></a> -->
+						<a target="_blank" href="<?php echo $json['socialMediaLinks']['email'] ?>"><i class="fa fa-3x fa-envelope-o"></i></a>
 						<a target="_blank" href="<?php echo $json['socialMediaLinks']['website'] ?>"><i class="fa fa-3x fa-globe"></i> </a>
 					</div> 
 					<div class="">
