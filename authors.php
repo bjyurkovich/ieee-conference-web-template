@@ -21,7 +21,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 		<h1>CALL FOR SUBMISSIONS</h1>
 
-		The 2024 IEEE Global Blockchain Conference will be held in Shanghai, China, from 21 August - 23 August 2024. Themed “Transforming a Trustworthy Digital Future,”  will feature a comprehensive high-quality technical program including 6 tracks and a variety of tutorials and workshops. IEEE GBC 2024 will also include an attractive industry program aimed at practitioners, with keynotes and panels from prominent research, industry and government leaders, business and industry panels, and technological exhibits. IEEE GBC 2024 will be held fully in person. Those authors that will not be allowed to travel to the conference due to visa issues or strict national rules will be given the opportunity to present their accepted work through a video presentation.
+		The 2024 IEEE Global Blockchain Conference will be held in Shanghai, China, from 21 August - 23 August 2024. Themed “Transforming a Trustworthy Digital Future”, the conference will feature a comprehensive high-quality technical program including 6 tracks and a variety of tutorials and workshops. IEEE GBC 2024 will also include an attractive industry program aimed at practitioners, with keynotes and panels from prominent research, industry and government leaders, business and industry panels, and technological exhibits. IEEE GBC 2024 will be held fully in person. Those authors that will not be allowed to travel to the conference due to visa issues or strict national rules will be given the opportunity to present their accepted work through a video presentation.
 		
 		<br><br>
 
