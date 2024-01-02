@@ -20,16 +20,15 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<br><br>
 	<div style="font-weight: bold; font-size: larger;">Track 4: Communications Network Infrastructures & DePIN</div>
 	<br>
-	Decentralized Physical Infrastructure Networks, Cloud/Edge Computing, Computing Force Network, 6G/F6G, Wireless Communications, DeWi, Internet Architecture, Internet of Things, Infrastructure Security, and Cyber-Physical Systems.
+	Decentralized Physical Infrastructure Networks, Cloud/Edge Computing, Computing Force Network, 6G/F6G, Wireless Communications, DeWi, Internet Architecture, Internet of Things, Infrastructure Security, O-RAN and Cyber-Physical Systems.
 	<br><br>
 	<div style="font-weight: bold; font-size: larger;">Track 5: Integration of Blockchain, Data Elements & AI</div>
 	<br>
-	Blockchain Empowerment of Data Elements, Machine Learning, Deep Learning, Federated Learning, Large Language Models , Confidential Computing, AI Security, AI Entities, AI Autonomous Agents, AI Ethics, Generative AI, and Interdisciplinary Researches.
+	Blockchain Empowerment of Data Elements, Machine Learning, Deep Learning, Federated Learning, Large Language Models, Confidential Computing, AI Security, AI Entities, AI Autonomous Agents, AI Ethics, Generative AI, and Interdisciplinary Researches.
 	<br><br>
 	<div style="font-weight: bold; font-size: larger;">Track 6: Blockchain for Web 3.0 & Metaverse Ecosystems</div>
 	<br>
-	Metaverse, Smart Contracts, NFTs, Incentive Mechanisms, Digital Assets, Distributed Identity, Privacy-Preserving, dApps, DeFi,  Payment Channels, Decentralized Finance, Zero-Knowledge Proofs, Verifiable Credentials, Industrial Web 3.0, Trust Management, Digital Governance, Blockchain Policy-Making, GDPR, & Social Impacts.
-	<br><br>
+	Metaverse, Smart Contracts, NFTs, RWA Tokenization, Incentive Mechanisms, Privacy-Preserving, Distributed Identity, Digital Assets, dApps, DeFi, Ordinals, Payment Channels, Decentralized Finance, Verifiable Credentials, Zero-Knowledge Proofs, Industrial Web 3.0, Trust Management, Digital Governance, Blockchain Policy-Making, GDPR, & Social Impacts.
 
 </div>
 

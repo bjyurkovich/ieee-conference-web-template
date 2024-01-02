@@ -23,13 +23,13 @@
 	},
 	"dates":[
 		{
-			"title":"Call for Demo Proposals Due",
-			"date": "15 Jan, 2024",
+			"title":"Call for Workshop Proposals Due",
+			"date": "30 Jan, 2024",
 			"showInNavBar": true
 		},
 		{
-			"title":"Call for Workshop Proposals Due",
-			"date": "15 Jan, 2024",
+			"title":"Call for Tutorial Proposals Due",
+			"date": "30 Jan, 2024",
 			"showInNavBar": true
 		},
 		{
@@ -38,13 +38,13 @@
 			"showInNavBar": true
 		},
 		{
-			"title":"Call for Tutorial Proposals Due",
-			"date": "15 March, 2024/1 May, 2024",
+			"title":"Call for Demo Proposals Due",
+			"date": "15 Feb, 2024",
 			"showInNavBar": true
 		},
 		{
 			"title":"Call for Panel Proposals Due",
-			"date": "15 March, 2024/1 May, 2024",
+			"date": "15 Feb, 2024",
 			"showInNavBar": true
 		},
 		{
