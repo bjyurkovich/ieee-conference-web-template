@@ -10,10 +10,16 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	}
 </script>
 
+<script>
+	function Tipscfp(){
+		alert('Stay tuned!');
+	}
+</script>
+
 <div class="flex flex-auto" style="padding-top: 1%">
 	<div style="margin-bottom: 1%;">
-		
-		<button style="font-size: larger" onclick="location.href='resources/gbc-cfp-poster-v11.pdf';">Download Call for Papers</button><button style="font-size: larger" onclick="Tips()">Submit Your Paper Now</button><br><br>
+	<!-- onclick="location.href='resources/gbc-cfp-poster-v11.pdf';" -->
+		<button style="font-size: larger" onclick="Tipscfp()">Download Call for Papers</button><button style="font-size: larger" onclick="Tips()">Submit Your Paper Now</button><br><br>
 
 		The 2024 IEEE Global Blockchain Conference (GBC) will feature a comprehensive technical program covering the latest research and innovation in blockchain technologies.
 
