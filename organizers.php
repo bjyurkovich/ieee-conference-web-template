@@ -43,7 +43,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/liuerwu.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/liuerwu.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Erwu Liu</div>
 			<div class="role bold">General Chair</div>
