@@ -54,51 +54,67 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 	<div class="spacer"></div>
 
-	<!-- <div class="organizer-group-title">Vice TPC Chair & Coordinator</div>
+	<div class="organizer-group-title">TPC Members</div>
 
+	<!-- <div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name"></div>
+			<div class="role bold"></div>
+			<div class="affiliation"></div>
+		</div>
+	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">Hao Xu</div>
+			<div class="name"></div>
 			<div class="role bold"></div>
-			<div class="affiliation">Tongji University, China</div>
+			<div class="affiliation"></div>
 		</div>
 	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name"></div>
+			<div class="role bold"></div>
+			<div class="affiliation"></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name"></div>
+			<div class="role bold"></div>
+			<div class="affiliation"></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name"></div>
+			<div class="role bold"></div>
+			<div class="affiliation"></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name"></div>
+			<div class="role bold"></div>
+			<div class="affiliation"></div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name"></div>
+			<div class="role bold"></div>
+			<div class="affiliation"></div>
+		</div>
+	</div> -->
 
+	
 	<div class="spacer"></div>
-
-	<div class="organizer-group-title">Workshop Chair</div>
-
-	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
-		<div class="info-container">
-			<div class="name">Bin Cao</div>
-			<div class="role bold"></div>
-			<div class="affiliation"></div>
-		</div>
-	</div>
-
-	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
-		<div class="info-container">
-			<div class="name">Butian Huang</div>
-			<div class="role bold"></div>
-			<div class="affiliation"></div>
-		</div>
-	</div>
-
-	<div class="spacer"></div>
-	<div class="organizer-group-title">Panel Chair</div>
-
-	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
-		<div class="info-container">
-			<div class="name">Fei Liu</div>
-			<div class="role bold"></div>
-			<div class="affiliation"></div>
-		</div>
-	</div>
-	<div class="spacer"></div> -->
 
 <div class="text">
 
