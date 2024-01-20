@@ -13,7 +13,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="info-container">
 			<div class="name">Elisa Bertino</div>
 			<!-- <div class="role bold">IEEE Fellow, ACM Fellow</div> -->
-			<div class="affiliation">Purdue University, USA</div>
+			<div class="affiliation">Purdue University</div>
 		</div>
 	</div>
 	
@@ -22,7 +22,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="info-container">
 			<div class="name">Shuguang Cui</div>
 			<div class="role bold"></div>
-			<div class="affiliation">The Chinese University of Hong Kong, Shenzhen, China</div>
+			<div class="affiliation">The Chinese University of Hong Kong, Shenzhen</div>
 		</div>
 	</div>
 
@@ -31,7 +31,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="info-container">
 			<div class="name">Kui Ren</div>
 			<!-- <div class="role bold">IEEE Fellow, ACM Fellow</div> -->
-			<div class="affiliation">Zhejiang University, China</div>
+			<div class="affiliation">Zhejiang University</div>
 		</div>
 	</div>
 
@@ -40,7 +40,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="info-container">
 			<div class="name">Chonggang Wang</div>
 			<!-- <div class="role bold">IEEE Fellow, Founding EiC of IEEE IoT Journal, EiC of IEEE Network</div> -->
-			<div class="affiliation">InterDigital, Inc., USA</div>
+			<div class="affiliation">InterDigital, Inc.</div>
 		</div>
 	</div>
 
@@ -49,69 +49,69 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="info-container">
 			<div class="name">Lei Zhang</div>
 			<!-- <div class="role bold">Associate Editor of IEEE IoT Journal, IEEE Wireless Communications Letters and Digital Communications and Networks</div> -->
-			<div class="affiliation">The University of Glasgow, UK</div>
+			<div class="affiliation">The University of Glasgow</div>
 		</div>
 	</div>
 	<div class="spacer"></div>
 
 	<div class="organizer-group-title">TPC Members</div>
 
-	<!-- <div class="flex flex-auto person-container">
+	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name"></div>
+			<div class="name">Xiuzhen Cheng</div>
 			<div class="role bold"></div>
-			<div class="affiliation"></div>
+			<div class="affiliation">Shandong University</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name"></div>
+			<div class="name">Xiaotie Deng</div>
 			<div class="role bold"></div>
-			<div class="affiliation"></div>
+			<div class="affiliation">Peking University</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name"></div>
+			<div class="name">Song Guo</div>
 			<div class="role bold"></div>
-			<div class="affiliation"></div>
+			<div class="affiliation">Hong Kong University of Science and Technology</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name"></div>
+			<div class="name">Jie Li</div>
 			<div class="role bold"></div>
-			<div class="affiliation"></div>
+			<div class="affiliation">Shanghai Jiao Tong University</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name"></div>
+			<div class="name">Qian Wang</div>
 			<div class="role bold"></div>
-			<div class="affiliation"></div>
+			<div class="affiliation">Wuhan University</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name"></div>
+			<div class="name">Bin Xiao</div>
 			<div class="role bold"></div>
-			<div class="affiliation"></div>
+			<div class="affiliation">The Hong Kong Polytechnic University</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name"></div>
+			<div class="name">Zheng Yan</div>
 			<div class="role bold"></div>
-			<div class="affiliation"></div>
+			<div class="affiliation">Xidian University</div>
 		</div>
-	</div> -->
+	</div>
 
 	
 	<div class="spacer"></div>
