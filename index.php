@@ -34,14 +34,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	})
 </script>
 
-<!-- <div id="news-ticker" style="color:gray;background:white;padding:15px;margin:10px;border-radius:10px;box-shadow:2px 2px 2px 2px #ccc;margin-top:-20px;margin-bottom:20px; ">
+<div id="news-ticker" style="color:gray;background:white;padding:15px;margin:10px;border-radius:10px;box-shadow:2px 2px 2px 2px #ccc;margin-top:-20px;margin-bottom:20px; ">
 		<p style="padding:0;margin:0;font-size:smaller">
 			<i style="color:red;margin-right:10px" class="fa fa-1x fa-newspaper-o"></i> 
 			<span id="news-ticker-content">
 				<a id="news-ticker-link" href="">stay tuned</a>
 			</span>
 		</p>
-</div> -->
+</div>
 
 <div class="text">
 
