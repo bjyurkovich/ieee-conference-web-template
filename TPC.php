@@ -54,13 +54,13 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	</div>
 	<div class="spacer"></div>
 
-	<div class="organizer-group-title">TPC Members</div>
+	<div class="organizer-group-title">Track Co-Chair</div>
 
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Xiuzhen Cheng</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">Shandong University</div>
 		</div>
 	</div>
@@ -68,7 +68,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Xiaotie Deng</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow, ACM Fellow</div>
 			<div class="affiliation">Peking University</div>
 		</div>
 	</div>
@@ -76,15 +76,23 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Song Guo</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">Hong Kong University of Science and Technology</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
+			<div class="name">Ashish Kundu</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">Cisco</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
 			<div class="name">Jie Li</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">Shanghai Jiao Tong University</div>
 		</div>
 	</div>
@@ -92,7 +100,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Qian Wang</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">Wuhan University</div>
 		</div>
 	</div>
@@ -100,7 +108,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Bin Xiao</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">The Hong Kong Polytechnic University</div>
 		</div>
 	</div>
@@ -108,12 +116,12 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Zheng Yan</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">Xidian University</div>
 		</div>
 	</div>
 
-	
+	Stay tuned for more updates
 	<div class="spacer"></div>
 
 <div class="text">
