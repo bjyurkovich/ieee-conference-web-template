@@ -178,61 +178,58 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="info-container">
 			<div class="name">Wei Wang</div>
 			<div class="role bold"></div>
-			<div class="affiliation">Beijing Jiaotong University/div>
+			<div class="affiliation">Beijing Jiaotong University</div>
 		</div>
 	</div>
 
 	Stay tuned for more updates
 	<div class="spacer"></div>
 
-<div class="text">
+	<div class="text">
 
-	<div style="">
-		<a style="color:blue;font-size: 20px" href="organizers.php">
-			<div style="padding-top:6%;float:left">
-				Organizing Committee
-			</div>
-		</a>
-	</div> 
+		<div style="">
+			<a style="color:blue;font-size: 20px" href="organizers.php">
+				<div style="padding-top:6%;float:left">
+					Organizing Committee
+				</div>
+			</a>
+		</div> 
 
-	<div style="clear: both;margin-top:20px">
-		<a style="color:blue;font-size: 20px;" href="TPC.php">
-			<div style="padding-top:6%;float:left">
-				Technical Program Committee
-			</div>
-		</a>
+		<div style="clear: both;margin-top:20px">
+			<a style="color:blue;font-size: 20px;" href="TPC.php">
+				<div style="padding-top:6%;float:left">
+					Technical Program Committee
+				</div>
+			</a>
+		</div>
+
+
+		<div style="clear: both;margin-top:20px">
+			<a style="color:blue;font-size: 20px;" href="IFEC.php">
+				<div style="padding-top:6%;float:left">
+					Industry Forums & Exhibition Committee
+				</div>
+			</a>
+		</div>
+
+		<div style="clear: both;margin-top:20px">
+			<a style="color:blue;font-size: 20px;" href="operationC.php">
+				<div style="padding-top:6%;float:left">
+					Operations Committee
+				</div>
+			</a>
+		</div>
+
+		<div style="clear: both;margin-top:20px">
+			<a style="color:blue;font-size: 20px;" href="advisoryC.php">
+				<div style="padding-top:6%;float:left">
+					Advisory Committee
+				</div>
+			</a>
+		</div>
+
 	</div>
-
-
-	<div style="clear: both;margin-top:20px">
-		<a style="color:blue;font-size: 20px;" href="IFEC.php">
-			<div style="padding-top:6%;float:left">
-				Industry Forums & Exhibition Committee
-			</div>
-		</a>
-	</div>
-
-	<div style="clear: both;margin-top:20px">
-		<a style="color:blue;font-size: 20px;" href="operationC.php">
-			<div style="padding-top:6%;float:left">
-				Operations Committee
-			</div>
-		</a>
-	</div>
-
-	<div style="clear: both;margin-top:20px">
-		<a style="color:blue;font-size: 20px;" href="advisoryC.php">
-			<div style="padding-top:6%;float:left">
-				Advisory Committee
-			</div>
-		</a>
-	</div>
-
-</div>
-
-
-
-
+	
 </div>
 
 <?php require 'right-bar-footer.php'; //THE MUST BE INCLUDED FOR EACH PAGE ?>

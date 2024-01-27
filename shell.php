@@ -48,13 +48,23 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
             color: #cccccc;
             vertical-align: middle;
         }
+
+        .center-container {
+            text-align: center; /* 文本居中，用于内联元素或文本 */
+        }
+
+        .center-block {
+            margin: 0 auto; /* 上下保持0，左右自动，用于块元素居中 */
+            display: block; /* 确保元素被视为块元素 */
+        }
     </style>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script src="https://v-cn.vaptcha.com/v3.js"></script>
 </head>
 <body>
 
-<div id="VAPTCHAContainer" style="width: 300px;height: 36px;">
+<div class="center-container">
+    <div id="VAPTCHAContainer"  class="center-block" style="width: 300px;height: 36px;">
         <!-- 下面代码为预加载动画代码，仅供参考 -->
         <div class="VAPTCHA-init-main">
             <div class="VAPTCHA-init-loading">
@@ -87,7 +97,8 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
             </div>
         </div>
     </div>
-
+    <button id="triggerButton" class="center-block" disabled>执行脚本</button>
+</div>
     <script>
         vaptcha({
             vid: '65b4c34dd3784602950e7438', // 替换为您的验证单元VID
@@ -126,12 +137,6 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
             });
         });
     </script>
-    
-
-
-
-
-
 
 </body>
 </html>
