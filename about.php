@@ -43,11 +43,20 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</p>
 </div> -->
 
-<div class="text">
+<div class="flex flex-auto" style="padding-top: 1%">
+<div style="margin-bottom: 1%;">
 
-<!-- 	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
-Stay tuned
-	<br><br>
+<h1>about IEEE GBC</h1>
+IEEE GBC is one of two IEEE Blockchain Community’s flagship conferences. The 2024 IEEE Global Blockchain Conference will be held in Shanghai, China, from 21 August - 23 August 2024. Themed “Transforming a Trustworthy Digital Future”, the conference will feature a comprehensive high-quality technical program including 6 tracks and a variety of tutorials and workshops. IEEE GBC 2024 will also include an attractive industry program aimed at practitioners, with keynotes and panels from prominent research, industry and government leaders, business and industry panels, and technological exhibits. GBC 2024 is planned to be a fully physical meeting/event.<br/><br/>
+<br/>
+
+
+<h1>About IEEE</h1>
+The IEEE (Institute of Electrical and Electronics Engineers, Inc.) is the world’s largest technical professional society. Through its more than 400,000 members in 150 countries, the organization is a leading authority on a wide variety of areas ranging from aerospace systems, computers and telecommunications to biomedical engineering, electric power, and consumer electronics. Dedicated to the advancement of technology, the IEEE publishes 30 percent of the world’s literature in the electrical and electronics engineering and computer science fields, and has developed nearly 900 active industry standards. The organization annually sponsors more than 850 conferences worldwide. Learn more at www.ieee.org.<br/>
+<br/>
+
+
+</div>
 </div>
 
 

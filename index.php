@@ -34,21 +34,23 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	})
 </script>
 
-<div id="news-ticker" style="color:gray;background:white;padding:15px;margin:10px;border-radius:10px;box-shadow:2px 2px 2px 2px #ccc;margin-top:-20px;margin-bottom:20px; ">
+<!-- <div id="news-ticker" style="color:gray;background:white;padding:15px;margin:10px;border-radius:10px;box-shadow:2px 2px 2px 2px #ccc;margin-top:-20px;margin-bottom:20px; ">
 		<p style="padding:0;margin:0;font-size:smaller">
 			<i style="color:red;margin-right:10px" class="fa fa-1x fa-newspaper-o"></i> 
 			<span id="news-ticker-content">
 				<a id="news-ticker-link" href="">stay tuned</a>
 			</span>
 		</p>
-</div>
+</div> -->
 
-<div class="text">
-
-<!-- 	<div style="font-size:30px;color:red;padding:20px; line-height: 30px;"> Paper Submission Deadline Extended to March 10!</div> -->
+<div class="flex flex-auto" style="padding-top: 1%">
+<div style="margin-bottom: 1%;">
 
 <h2>Welcome to the IEEE Global Blockchain Conference 2024, where we're 'Transforming a Trustworthy Digital Future' with IEEE President, IET President and ACM Vice President. Led by the EiCs of top journals such as IEEE TDSC, IEEE TMC and IEEE Network, the technical program includes six tracks and a variety of tutorials and workshops. IEEE GBC 2024 also features a series of visionary keynotes, panels, and discussions from top minds to shape the future of blockchain.</h2>
-<br><br>
+<br/>
+
+
+</div>
 </div>
 
 

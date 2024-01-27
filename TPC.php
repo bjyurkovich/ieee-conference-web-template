@@ -56,14 +56,8 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 	<div class="organizer-group-title">Track Co-Chair</div>
 
-	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
-		<div class="info-container">
-			<div class="name">Xiuzhen Cheng</div>
-			<div class="role bold">IEEE Fellow</div>
-			<div class="affiliation">Shandong University</div>
-		</div>
-	</div>
+	<div class="organizer-track-title">Track 1: Blockchain Consensus, Performance, and Scalability</div>
+
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
@@ -75,9 +69,20 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">Song Guo</div>
+			<div class="name">Sisi Duan</div>
+			<div class="role bold"></div>
+			<div class="affiliation">Tsinghua University</div>
+		</div>
+	</div>
+
+	<div class="organizer-track-title">Track 2: Blockchain for Real-World Applications</div>
+
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Jie Li</div>
 			<div class="role bold">IEEE Fellow</div>
-			<div class="affiliation">Hong Kong University of Science and Technology</div>
+			<div class="affiliation">Shanghai Jiao Tong University</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
@@ -91,11 +96,15 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">Jie Li</div>
-			<div class="role bold">IEEE Fellow</div>
-			<div class="affiliation">Shanghai Jiao Tong University</div>
+			<div class="name">Jiang Xiao</div>
+			<div class="role bold"></div>
+			<div class="affiliation">Huazhong University of Science and Technology</div>
 		</div>
 	</div>
+
+
+	<div class="organizer-track-title">Track 3: Security for Blockchain, Blockchain for Security</div>
+
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
@@ -107,9 +116,21 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">Bin Xiao</div>
+			<div class="name">Yinqian Zhang</div>
+			<div class="role bold"></div>
+			<div class="affiliation">Southern University of Science and Technology</div>
+		</div>
+	</div>
+
+
+	<div class="organizer-track-title">Track 4: Communications Network Infrastructures & DePIN</div>
+
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Song Guo</div>
 			<div class="role bold">IEEE Fellow</div>
-			<div class="affiliation">The Hong Kong Polytechnic University</div>
+			<div class="affiliation">Hong Kong University of Science and Technology</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
@@ -118,6 +139,46 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="name">Zheng Yan</div>
 			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">Xidian University</div>
+		</div>
+	</div>
+
+
+	<div class="organizer-track-title">Track 5: Integration of Blockchain, Data Elements & AI</div>
+
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Bin Xiao</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">The Hong Kong Polytechnic University</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Huawei Huang</div>
+			<div class="role bold"></div>
+			<div class="affiliation">Sun Yat-sen University</div>
+		</div>
+	</div>
+
+
+	<div class="organizer-track-title">Track 6: Blockchain for Web 3.0 & Metaverse Ecosystems</div>
+
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Xiuzhen Cheng</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">Shandong University</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Wei Wang</div>
+			<div class="role bold"></div>
+			<div class="affiliation">Beijing Jiaotong University/div>
 		</div>
 	</div>
 
