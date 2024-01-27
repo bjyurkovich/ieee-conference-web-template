@@ -182,7 +182,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 
-	Stay tuned for more updates
+	<h2>Stay tuned for more updates</h2>
 	<div class="spacer"></div>
 
 	<div class="text">
