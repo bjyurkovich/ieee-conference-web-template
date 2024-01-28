@@ -59,7 +59,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="organizer-track-title">Track 1: Blockchain Consensus, Performance, and Scalability</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/XiaotieDeng.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Xiaotie Deng</div>
 			<div class="role bold">IEEE Fellow, ACM Fellow</div>
@@ -67,7 +67,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/SisiDuan.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Sisi Duan</div>
 			<div class="role bold"></div>
@@ -78,7 +78,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="organizer-track-title">Track 2: Blockchain for Real-World Applications</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/JieLi.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Jie Li</div>
 			<div class="role bold">IEEE Fellow</div>
@@ -86,7 +86,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/AshishKundu.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Ashish Kundu</div>
 			<div class="role bold">IEEE Fellow</div>
@@ -94,7 +94,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/JiangXiao.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Jiang Xiao</div>
 			<div class="role bold"></div>
@@ -106,7 +106,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="organizer-track-title">Track 3: Security for Blockchain, Blockchain for Security</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/XiapuLuo.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Xiapu Luo</div>
 			<div class="role bold"></div>
@@ -114,7 +114,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/QianWang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Qian Wang</div>
 			<div class="role bold">IEEE Fellow</div>
@@ -122,7 +122,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/YinqianZhang.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Yinqian Zhang</div>
 			<div class="role bold"></div>
@@ -134,7 +134,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="organizer-track-title">Track 4: Communications Network Infrastructures & DePIN</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/SongGuo.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Song Guo</div>
 			<div class="role bold">IEEE Fellow</div>
@@ -142,7 +142,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/YanZheng.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Zheng Yan</div>
 			<div class="role bold">IEEE Fellow</div>
@@ -154,7 +154,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="organizer-track-title">Track 5: Integration of Blockchain, Data Elements & AI</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/BinXiao.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Bin Xiao</div>
 			<div class="role bold">IEEE Fellow</div>
@@ -162,7 +162,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/HuaweiHuang.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Huawei Huang</div>
 			<div class="role bold"></div>
@@ -174,7 +174,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="organizer-track-title">Track 6: Blockchain for Web 3.0 & Metaverse Ecosystems</div>
 
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/XiuzhenCheng.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Xiuzhen Cheng</div>
 			<div class="role bold">IEEE Fellow</div>
@@ -182,7 +182,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/WeiWang.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Wei Wang</div>
 			<div class="role bold"></div>
