@@ -108,6 +108,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
 		<div class="info-container">
+			<div class="name">Xiapu Luo</div>
+			<div class="role bold"></div>
+			<div class="affiliation">The Hong Kong Polytechnic University</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/.png);background-size:100px 100px;"></div>
+		<div class="info-container">
 			<div class="name">Qian Wang</div>
 			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">Wuhan University</div>
