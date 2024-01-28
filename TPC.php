@@ -74,6 +74,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Tsinghua University</div>
 		</div>
 	</div>
+	<div class="spacer"></div>
 
 	<div class="organizer-track-title">Track 2: Blockchain for Real-World Applications</div>
 
@@ -102,7 +103,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 
-
+	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 3: Security for Blockchain, Blockchain for Security</div>
 
 	<div class="flex flex-auto person-container">
@@ -130,7 +131,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 
-
+	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 4: Communications Network Infrastructures & DePIN</div>
 
 	<div class="flex flex-auto person-container">
@@ -150,7 +151,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 
-
+	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 5: Integration of Blockchain, Data Elements & AI</div>
 
 	<div class="flex flex-auto person-container">
@@ -170,7 +171,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 
-
+	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 6: Blockchain for Web 3.0 & Metaverse Ecosystems</div>
 
 	<div class="flex flex-auto person-container">
@@ -189,7 +190,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Beijing Jiaotong University</div>
 		</div>
 	</div>
-
+	<div class="spacer"></div>
 	<h2>Stay tuned for more updates</h2>
 	<div class="spacer"></div>
 
