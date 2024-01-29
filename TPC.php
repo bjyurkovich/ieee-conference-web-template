@@ -12,7 +12,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/elisa.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Elisa Bertino</div>
-			<!-- <div class="role bold">IEEE Fellow, ACM Fellow</div> -->
+			<div class="role bold">IEEE Fellow, ACM Fellow</div>
 			<div class="affiliation">Purdue University</div>
 		</div>
 	</div>
@@ -21,7 +21,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/cuishuguang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Shuguang Cui</div>
-			<div class="role bold"></div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">The Chinese University of Hong Kong, Shenzhen</div>
 		</div>
 	</div>
@@ -30,7 +30,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/renkui.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Kui Ren</div>
-			<!-- <div class="role bold">IEEE Fellow, ACM Fellow</div> -->
+			<div class="role bold">IEEE Fellow, ACM Fellow</div>
 			<div class="affiliation">Zhejiang University</div>
 		</div>
 	</div>
@@ -39,7 +39,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/chonggangwang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Chonggang Wang</div>
-			<!-- <div class="role bold">IEEE Fellow, Founding EiC of IEEE IoT Journal, EiC of IEEE Network</div> -->
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">InterDigital, Inc.</div>
 		</div>
 	</div>
@@ -48,7 +48,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/leizhang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Lei Zhang</div>
-			<!-- <div class="role bold">Associate Editor of IEEE IoT Journal, IEEE Wireless Communications Letters and Digital Communications and Networks</div> -->
+			<div class="role bold">Associate Editor of IEEE IoT Journal</div>
 			<div class="affiliation">The University of Glasgow</div>
 		</div>
 	</div>
@@ -66,14 +66,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Peking University</div>
 		</div>
 	</div>
-	<div class="flex flex-auto person-container">
+	<!-- <div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/SisiDuan.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Sisi Duan</div>
 			<div class="role bold"></div>
 			<div class="affiliation">Tsinghua University</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="spacer"></div>
 
 	<div class="organizer-track-title">Track 2: Blockchain for Real-World Applications</div>
@@ -94,24 +94,32 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Cisco</div>
 		</div>
 	</div>
-	<div class="flex flex-auto person-container">
+	<!-- <div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/JiangXiao.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Jiang Xiao</div>
 			<div class="role bold"></div>
 			<div class="affiliation">Huazhong University of Science and Technology</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 3: Security for Blockchain, Blockchain for Security</div>
 
-	<div class="flex flex-auto person-container">
+	<!-- <div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/XiapuLuo.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Xiapu Luo</div>
 			<div class="role bold"></div>
 			<div class="affiliation">The Hong Kong Polytechnic University</div>
+		</div>
+	</div> -->
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/Elena Ferrari.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Elena Ferrari</div>
+			<div class="role bold">IEEE Fellow, ACM Fellow</div>
+			<div class="affiliation">University of Insubria</div>
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
@@ -122,14 +130,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Wuhan University</div>
 		</div>
 	</div>
-	<div class="flex flex-auto person-container">
+	<!-- <div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/YinqianZhang.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Yinqian Zhang</div>
 			<div class="role bold"></div>
 			<div class="affiliation">Southern University of Science and Technology</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 4: Communications Network Infrastructures & DePIN</div>
@@ -162,14 +170,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">The Hong Kong Polytechnic University</div>
 		</div>
 	</div>
-	<div class="flex flex-auto person-container">
+	<!-- <div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/HuaweiHuang.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Huawei Huang</div>
 			<div class="role bold"></div>
 			<div class="affiliation">Sun Yat-sen University</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 6: Blockchain for Web 3.0 & Metaverse Ecosystems</div>
@@ -182,14 +190,17 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Shandong University</div>
 		</div>
 	</div>
-	<div class="flex flex-auto person-container">
+	<!-- <div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/WeiWang.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Wei Wang</div>
 			<div class="role bold"></div>
 			<div class="affiliation">Beijing Jiaotong University</div>
 		</div>
-	</div>
+	</div> -->
+
+
+
 	<div class="spacer"></div>
 	<h2>Stay tuned for more updates</h2>
 	<div class="spacer"></div>
