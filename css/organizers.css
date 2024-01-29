@@ -29,13 +29,13 @@
 }
 
 .person-container .role{
-	font-size: medium;
+	font-size: large;
 }
 
 
 
 .person-container .affiliation{
-	font-size: small;
+	font-size: medium;
 }
 
 .person-container .contact{
