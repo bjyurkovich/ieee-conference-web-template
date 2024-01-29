@@ -95,7 +95,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/leizhang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Lei Zhang</div>
-			<div class="role bold">Associate Editor of IEEE IoT Journal</div>
+			<!-- <div class="role bold">Associate Editor of IEEE IoT Journal</div> -->
 			<div class="affiliation">The University of Glasgow</div>
 		</div>
 	</div>

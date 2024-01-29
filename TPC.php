@@ -48,7 +48,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/organizers/leizhang.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Lei Zhang</div>
-			<div class="role bold">Associate Editor of IEEE IoT Journal</div>
+			<!-- <div class="role bold">Associate Editor of IEEE IoT Journal</div> -->
 			<div class="affiliation">The University of Glasgow</div>
 		</div>
 	</div>
@@ -143,6 +143,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 	<div class="organizer-track-title">Track 4: Communications Network Infrastructures & DePIN</div>
 
 	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/SchahramDustdar.jpg);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Schahram Dustdar</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">Vienna University of Technology</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/SongGuo.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Song Guo</div>
@@ -161,7 +169,15 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 5: Integration of Blockchain, Data Elements & AI</div>
-
+	
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/CongWang.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Cong Wang</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">City University of Hong Kong</div>
+		</div>
+	</div>
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/BinXiao.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
@@ -202,7 +218,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 
 
 	<div class="spacer"></div>
-	<h2>Stay tuned for more updates</h2>
+	<h2>Stay tuned for more updates, the assignment of track co-chairs may be modified according to the overall conference planning.</h2>
 	<div class="spacer"></div>
 
 	<div class="text">
