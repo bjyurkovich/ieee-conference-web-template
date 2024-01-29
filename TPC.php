@@ -115,7 +115,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div> -->
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/tracks/Elena Ferrari.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/ElenaFerrari.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Elena Ferrari</div>
 			<div class="role bold">IEEE Fellow, ACM Fellow</div>
