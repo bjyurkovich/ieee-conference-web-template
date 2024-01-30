@@ -22,11 +22,6 @@
 	},
 	"dates":[
 		{
-			"title":"Call for Workshop Proposals Due",
-			"date": "30 Jan, 2024",
-			"showInNavBar": true
-		},
-		{
 			"title":"Call for Tutorial Proposals Due",
 			"date": "30 Jan, 2024",
 			"showInNavBar": true
@@ -44,6 +39,11 @@
 		{
 			"title":"Call for Panel Proposals Due",
 			"date": "15 Feb, 2024",
+			"showInNavBar": true
+		},
+		{
+			"title":"Call for Workshop Proposals Due",
+			"date": "28 Feb, 2024",
 			"showInNavBar": true
 		},
 		{
