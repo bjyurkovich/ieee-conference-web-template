@@ -151,6 +151,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/GiancarloFortino.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Giancarlo Fortino</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">University of Calabria</div>
+		</div>
+	</div>
+	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/SongGuo.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Song Guo</div>
