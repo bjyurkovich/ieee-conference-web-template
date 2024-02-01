@@ -147,6 +147,15 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div> -->
 
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/ZhiqiangLin.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Zhiqiang Lin</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">The Ohio State University</div>
+		</div>
+	</div>
+
 	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 4: Communications Network Infrastructures & DePIN</div>
 
@@ -204,14 +213,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div> -->
 	
-	<!-- <div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/tracks/BinXiao.jpg);background-size:100px 100px;"></div>
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/LinWilliamCong.png);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Lin William Cong</div>
 			<div class="role bold"></div>
 			<div class="affiliation">Cornell University</div>
 		</div>
-	</div> -->
+	</div>
 
 	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 6: Blockchain for Web 3.0 & Metaverse Ecosystems</div>
