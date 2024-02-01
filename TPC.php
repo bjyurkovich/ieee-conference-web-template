@@ -203,9 +203,9 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Sun Yat-sen University</div>
 		</div>
 	</div> -->
-	
-	<!-- <div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/tracks/BinXiao.jpg);background-size:100px 100px;"></div>
+	<!-- 
+	 <div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/LinWilliamCong.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Lin William Cong</div>
 			<div class="role bold"></div>
@@ -233,7 +233,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div> -->
 	<!-- <div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/tracks/WeiWang.jpg);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/tracks/KonstantinosStylianou.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Konstantinos Stylianou</div>
 			<div class="role bold"></div>
