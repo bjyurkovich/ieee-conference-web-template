@@ -74,6 +74,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Tsinghua University</div>
 		</div>
 	</div> -->
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/GiancarloFortino.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Giancarlo Fortino</div>
+			<div class="role bold">IEEE Fellow</div>
+			<div class="affiliation">University of Calabria</div>
+		</div>
+	</div> 
 	<div class="spacer"></div>
 
 	<div class="organizer-track-title">Track 2: Blockchain for Real-World Applications</div>
@@ -150,14 +158,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Vienna University of Technology</div>
 		</div>
 	</div>
-	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/tracks/GiancarloFortino.png);background-size:100px 100px;"></div>
-		<div class="info-container">
-			<div class="name">Giancarlo Fortino</div>
-			<div class="role bold">IEEE Fellow</div>
-			<div class="affiliation">University of Calabria</div>
-		</div>
-	</div>
+	
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/tracks/SongGuo.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
@@ -202,6 +203,15 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Sun Yat-sen University</div>
 		</div>
 	</div> -->
+	
+	<!-- <div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/BinXiao.jpg);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Lin William Cong</div>
+			<div class="role bold"></div>
+			<div class="affiliation">Cornell University</div>
+		</div>
+	</div> -->
 
 	<div class="spacer"></div>
 	<div class="organizer-track-title">Track 6: Blockchain for Web 3.0 & Metaverse Ecosystems</div>
@@ -222,7 +232,14 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 			<div class="affiliation">Beijing Jiaotong University</div>
 		</div>
 	</div> -->
-
+	<!-- <div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/tracks/WeiWang.jpg);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Konstantinos Stylianou</div>
+			<div class="role bold"></div>
+			<div class="affiliation">University of Glasgow</div>
+		</div>
+	</div> -->
 
 
 	<div class="spacer"></div>
