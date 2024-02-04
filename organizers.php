@@ -15,6 +15,17 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 
+
+
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/zhengzhiming.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Zhiming Zheng</div>
+			<div class="role bold">Honorary Chair</div>
+			<div class="affiliation">Beihang University</div>
+		</div>
+	</div>
+	
 	<div class="flex flex-auto person-container">
 		<div class="pic headshot round" style="background:url(images/organizers/jiangchangjun.png);background-size:100px 100px;"></div>
 		<div class="info-container">
@@ -33,12 +44,23 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		</div>
 	</div>
 	
+
+
 	<div class="flex flex-auto person-container">
-		<div class="pic headshot round" style="background:url(images/organizers/zhengzhiming.png);background-size:100px 100px;"></div>
+		<div class="pic headshot round" style="background:url(images/organizers/yizhilin.png);background-size:100px 100px;"></div>
 		<div class="info-container">
-			<div class="name">Zhiming Zheng</div>
-			<div class="role bold">Honorary Chair</div>
-			<div class="affiliation">Beihang University</div>
+			<div class="name">Chih-Lin I</div>
+			<div class="role bold">Steering Committee Chair</div>
+			<div class="affiliation">China Mobile</div>
+		</div>
+	</div>
+
+	<div class="flex flex-auto person-container">
+		<div class="pic headshot round" style="background:url(images/organizers/yuanyu.png);background-size:100px 100px;"></div>
+		<div class="info-container">
+			<div class="name">Yu Yuan</div>
+			<div class="role bold">Steering Committee Chair</div>
+			<div class="affiliation">IEEE</div>
 		</div>
 	</div>
 
