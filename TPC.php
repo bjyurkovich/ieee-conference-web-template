@@ -181,7 +181,7 @@ require 'header-left-bar.php'; //THIS MUST BE INCLUDED FOR EACH PAGE
 		<div class="pic headshot round" style="background:url(images/tracks/MauroConti.jpg);background-size:100px 100px;"></div>
 		<div class="info-container">
 			<div class="name">Mauro Conti</div>
-			<div class="role bold">IEEE Fellow, EiC of IEEE TIFS</div>
+			<div class="role bold">IEEE Fellow</div>
 			<div class="affiliation">University of Padua</div>
 		</div>
 	</div>
